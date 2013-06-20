@@ -1,0 +1,560 @@
+body {
+	background-color:#c5e5ef;
+	background-image:url('');
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+ul {
+	display:inline;
+	list-style-type:none;
+}
+
+/* Verhalten und Farben aller Links */
+
+a {
+	text-decoration:none;
+}
+
+a:link {
+	color:#FFF0F0;
+	background-color:#06519E;
+}
+
+a:visited {
+	color:#FFF0F0;
+}
+
+a:hover {
+	color:#06519e;
+	background-color:#FFF0F0;
+}
+
+
+
+.inhalt a:link {
+	color:#06519E;
+	background-color:#E8E8F0;
+	text-decoration:underline;
+}
+
+.inhalt a:visited {
+	color:#06519E;
+}
+
+.inhalt a:hover {
+	color:#000066;
+	background-color:#E8E8F0;
+}
+
+
+
+.foot a:link {
+	color:#06519E;
+	background-color:#c5e5ef;
+}
+
+.foot a:visited {
+	color:#06519E;
+	background-color:#c5e5ef;
+}
+
+.foot a:hover {
+	color:#000066;
+}
+
+
+/* Kopfleiste mit Logo */
+
+.head {
+	color:#FFF0F0;
+	background-color:#C5E5EF;
+	
+/* Hier kommt das Logo rein (Webadresse von Picasa o.ä.) */
+ 
+	background-image:url('http://sphotos-h.ak.fbcdn.net/hphotos-ak-snc7/313326_252021334933229_1309192700_n.jpg'); 
+	background-repeat:no-repeat;
+		
+	font-family:verdana;
+	font-size:80%;
+	text-align:center;	
+	border:0px solid white;
+	border-radius:5px;
+	-moz-border-radius:5px;		
+	height:60px;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding:20px;
+	position:relative;
+}
+
+
+/* Position und Aussehen der Navigatonsleiste/Buttons */
+
+
+#first {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:250px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#second {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#third {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#forth {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#fifth {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#sixth {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+
+/* Formatierung von Inhaltstexten */
+
+.inhalt {
+	height:450px;
+    width:850px;
+    padding:20px 0px 0px 20px;
+    margin-top:60px;
+    margin-left:50px;
+    position:relative;
+
+    text-align:center;
+    color:#06519E;
+    font-family:Verdana;
+    font-size:14px;
+    
+    background-color:#E8E8F0;
+    border-radius:5px;
+    border:0px solid white;
+}
+
+
+/* Unternavigation der einzelnen Seiten -- Links neben dem Inhaltsfenster */
+
+#subone {
+	height:40px;
+    width:100px;
+    margin-top:-465px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+#subtwo {
+	height:40px;
+    width:100px;
+    margin-top:-400px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+
+}
+
+
+#subthree {
+	height:40px;
+    width:100px;
+    margin-top:-335px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+
+#subfour {
+	height:40px;
+    width:100px;
+    margin-top:-270px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+
+#subfive {
+	height:40px;
+    width:100px;
+    margin-top:-205px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+
+#subsix {
+	height:40px;
+    width:100px;
+    margin-top:-140px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+
+.foot {
+	font-size:50%;
+	color:#06519E;
+	text-align:right;
+	margin:20px 20px 0px 0px;
+	padding:20px;
+	position:relative;
+	clear:both;
+}
+
+
+
+/*
+
+.subnav {
+	height:40px;
+    width:100px;
+    margin:-450px 900px 0px -60px;
+    padding:10px 0px 0px 10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    background-color:#06519E;
+    border-radius:5px;
+    border:1px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+} */
+
+
+/* Fusszeile mit Copyright und Disclaimer usw. */
+
+
+
+/* 
+
+h4 {
+	text-align:right;
+	margin:-30px 20px 0px 0px;
+}
+
+thead {
+	font-size:120%;
+}
+
+td {
+	text-align:left;
+	text-decoration:inherit;
+}
+
+span {
+	text-decoration:underline;
+}
+
+.textinhalt li {
+	padding-left:60px;
+}
+
+
+.frameall {
+	background-color:#F3F6D5;
+	
+	height:1000px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom:20px;	
+	
+	border:1px solid #6b8e23;
+	border-radius:5px;
+}
+
+
+.head {
+	color:#F5F5F5;
+	background-color:#5C991F;
+	
+	font-family:Tunga;
+	font-size:150%;
+	font-style:italic;
+	text-align:center;
+	
+	border:1px solid #5C991F;
+	border-radius:5px;
+	-moz-border-radius:5px;		
+	height:200px;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding-top:5px;
+}
+
+
+#verhaltenstherapie {
+	height:40px;
+    width:160px;
+    padding:20px 0px 0px 0px;
+    margin:-10px 0px 0px 180px;
+    position:relative;
+
+    text-align:center;
+    font-family:Verdana;
+    font-size:14px;
+    
+    background-color:#5C991F;
+    border-radius:5px;
+    border:1px solid #F5F5F5;
+    box-shadow: 15px 15px 10px #888888;        
+    float:left;
+}
+
+#kostenerstattung {
+	height:40px;
+    width:160px;
+    padding:20px 0px 0px 0px;
+    margin:-10px 0px 0px 20px;
+    position:relative;
+
+    text-align:center;
+    font-family:Verdana;
+    font-size:14px;
+    
+    background-color:#5C991F;
+    border-radius:5px;
+    border:1px solid #F5F5F5;
+    box-shadow: 15px 15px 10px #888888;
+    
+    float:left;
+
+}
+
+#praxisundteam {
+	height:40px;
+    width:160px;
+    padding:20px 0px 0px 0px;
+    margin:-10px 0px 0px 20px;
+    position:relative;
+
+    text-align:center;
+    font-family:Verdana;
+    font-size:14px;
+    
+    background-color:#5C991F;
+    border-radius:5px;
+    border:1px solid #F5F5F5;
+    box-shadow: 15px 15px 10px #888888;
+    
+    float:left;
+
+}
+
+.inhalt {
+	height:600px;
+    width:800px;
+    padding:20px 0px 0px 0px;
+    margin:80px 0px 20px 50px;
+    position:absolute;
+
+    text-align:center;
+    color:#696969;
+    font-family:Verdana;
+    font-size:14px;
+    
+    background-color:#FFFFF0;
+    border-radius:5px;
+    border:0px dotted #696969;
+    box-shadow: 10px 10px 5px #888888;
+    
+    float:center;
+}
+   
+.inhalt table {
+	color:#696969;
+    font-family:Verdana;
+    font-size:14px;
+	border:0px dotted #663300;
+	margin:auto;
+	margin-top:40px;
+	padding:20px 20px 20px 20px;
+}
+
+.textinhalt {
+	height:600px;
+    width:800px;
+    padding:40px 40px 40px 40px;
+    margin:80px 0px 20px 50px;
+    position:absolute;
+
+    text-align:left;
+    color:#696969;
+    font-family:Verdana;
+    font-size:14px;
+    
+    background-color:#FFFFF0;
+    border-radius:5px;
+    border:0px dotted #696969;
+    box-shadow: 10px 10px 5px #888888;
+    
+    float:center;
+}
+
+*/
+
+
+
