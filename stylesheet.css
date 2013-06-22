@@ -350,9 +350,9 @@ a:hover {
 .foot {
 	font-size:50%;
 	color:#06519E;
-	text-align:right;
-	margin:20px 20px 0px 0px;
+	text-align:left;
+	margin-top:50px;
+	margin-left:750px;
 	padding:20px;
-	position:relative;
-	clear:both;
+	position:static;
 }
