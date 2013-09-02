@@ -1,0 +1,358 @@
+body {
+	background-color:#c5e5ef;
+	background-image:url('');
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+ul {
+	display:inline;
+	list-style-type:none;
+}
+
+/* Verhalten und Farben aller Links */
+
+a {
+	text-decoration:none;
+}
+
+a:link {
+	color:#FFF0F0;
+	background-color:#06519E;
+}
+
+a:visited {
+	color:#FFF0F0;
+}
+
+a:hover {
+	color:#06519e;
+	background-color:#FFF0F0;
+}
+
+
+
+.inhalt a:link {
+	color:#06519E;
+	background-color:#E8E8F0;
+	text-decoration:underline;
+}
+
+.inhalt a:visited {
+	color:#06519E;
+}
+
+.inhalt a:hover {
+	color:#000066;
+	background-color:#E8E8F0;
+}
+
+
+
+.foot a:link {
+	color:#06519E;
+	background-color:#c5e5ef;
+}
+
+.foot a:visited {
+	color:#06519E;
+	background-color:#c5e5ef;
+}
+
+.foot a:hover {
+	color:#000066;
+}
+
+
+/* Kopfleiste mit Logo */
+
+.head {
+	color:#FFF0F0;
+	background-color:#C5E5EF;
+	
+/* Hier kommt das Logo rein (Webadresse von Picasa o.ä.) */
+ 
+	background-image:url('http://sphotos-h.ak.fbcdn.net/hphotos-ak-snc7/313326_252021334933229_1309192700_n.jpg'); 
+	background-repeat:no-repeat;
+		
+	font-family:verdana;
+	font-size:80%;
+	text-align:center;	
+	border:0px solid white;
+	border-radius:5px;
+	-moz-border-radius:5px;		
+	height:60px;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding:20px;
+	position:relative;
+}
+
+
+/* Position und Aussehen der Navigatonsleiste/Buttons */
+
+
+#first {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:250px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#second {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#third {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#forth {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#fifth {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+#sixth {	
+	height:40px;
+    width:100px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:2px;
+    position:relative;
+
+    text-align:right;
+    font-family:Verdana;
+    font-size:14px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+}
+
+
+/* Formatierung von Inhaltstexten */
+
+.inhalt {
+	height:450px;
+    width:850px;
+    padding:20px 0px 0px 20px;
+    margin-top:60px;
+    margin-left:50px;
+    position:relative;
+
+    text-align:center;
+    color:#06519E;
+    font-family:Verdana;
+    font-size:14px;
+    
+    background-color:#E8E8F0;
+    border-radius:5px;
+    border:0px solid white;
+}
+
+
+/* Unternavigation der einzelnen Seiten -- Links neben dem Inhaltsfenster */
+
+#subone {
+	height:40px;
+    width:100px;
+    margin-top:-465px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+#subtwo {
+	height:40px;
+    width:100px;
+    margin-top:-400px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+
+}
+
+
+#subthree {
+	height:40px;
+    width:100px;
+    margin-top:-335px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+
+#subfour {
+	height:40px;
+    width:100px;
+    margin-top:-270px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+
+#subfive {
+	height:40px;
+    width:100px;
+    margin-top:-205px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+
+#subsix {
+	height:40px;
+    width:100px;
+    margin-top:-140px;
+    margin-left:-20px;
+    padding:10px;
+    position:relative;
+    
+    text-align:left;
+    font-family:Verdana;
+    font-size:12px;
+    
+    border-radius:5px;
+    border:0px solid #06519E;
+        
+    float:left;
+    z-index: 1;
+}
+
+
+.foot {
+	font-size:50%;
+	color:#06519E;
+	text-align:left;
+	margin-top:50px;
+	margin-left:750px;
+	padding:20px;
+	position:static;
+}
