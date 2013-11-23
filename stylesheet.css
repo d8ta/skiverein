@@ -1,9 +1,8 @@
-#start, #alpin, #termine, #aktuelles {
+#start, #alpin, #aktuelles, #foerderverein {
 	background-color: #075687;
 	color: #FFFFFF;
-	height: 800px;
+	height: 1200px;
 	padding-top: 10px;
-
 }
 
 
@@ -13,16 +12,16 @@
 	padding-top: 10px;
 	background-color: #ffffff;
 	color: #075687;
-	height: 800px;
+	height: 1200px;
 }
 
-#intro h1 {
+#intro, #alpin, #board, #aktuelles, #termine h1 {
 		margin-top: 100px;
 		text-align: center;
 		position: relative;
 }
 
-#intro p {
+#intro, #alpin, #board, #aktuelles, #termine p {
 	text-align: center;
 	padding-left: 10%;
 	padding-right: 10%;
