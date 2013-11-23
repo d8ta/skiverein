@@ -1,15 +1,37 @@
-#start {
+#start, #alpin, #termine, #aktuelles {
 	background-color: #075687;
 	color: #FFFFFF;
 	height: 800px;
+	padding-top: 10px;
+
 }
 
-#intro {
+
+/* first section */
+#intro, #board, #termine  {
 	margin-top: 800px;
+	padding-top: 10px;
 	background-color: #ffffff;
 	color: #075687;
 	height: 800px;
 }
+
+#intro h1 {
+		margin-top: 100px;
+		text-align: center;
+		position: relative;
+}
+
+#intro p {
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+} /* end */
+
+p {
+	text-align:center;
+}
+
 
 /* small size */
 @media only screen and (min-width: 0px) {
