@@ -23,18 +23,19 @@ $(document).ready(function() {
 		$('html, body').animate({
 			scrollTop : $("#aktuelles").offset().top
 		}, 2000);
-
-		$("#fifth, #fifthScrolle").click(function() {
-			$('html, body').animate({
-				scrollTop : $("#termine").offset().top
-			}, 2000);
-		});
+ 	});
+ 	
+	$("#fifth, #fifthScrolle").click(function() {
+		$('html, body').animate({
+			scrollTop : $("#termine").offset().top
+		}, 2000);
 	});
 	
 	$("#sixth, #sixthScrolle").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#foerderverein").offset().top
-    }, 2000);
-});  
+    	$('html, body').animate({
+        	scrollTop: $("#foerderverein").offset().top
+    	}, 2000);
+	});  
+
 
 }); 
