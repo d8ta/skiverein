@@ -36,6 +36,13 @@ $(document).ready(function() {
         	scrollTop: $("#foerderverein").offset().top
     	}, 2000);
 	});  
+	
+	
+	// togglefunction for the subnavigation
+	
+				$("#headtwo").click(function() {
+				$("#two").toggle(2000);
+				});
 
 
 }); 
