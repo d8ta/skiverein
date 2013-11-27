@@ -39,9 +39,10 @@ $(document).ready(function() {
 	
 	
 	// togglefunction for the subnavigation
+	// TODO soll vertikal scrollen und als default geschlossen sein
 	
 				$("#headtwo").click(function() {
-				$("#two").toggle(2000);
+				$("#two").toggle();
 				});
 
 
