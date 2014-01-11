@@ -36,14 +36,26 @@ $(document).ready(function() {
         	scrollTop: $("#foerderverein").offset().top
     	}, 2000);
 	});  
-	
+	 
 	
 	// togglefunction for the subnavigation
 	// TODO soll vertikal scrollen und als default geschlossen sein
 	
-				$("#headtwo").click(function() {
-				$("#two").toggle();
+				$(".subheadone").click(function() {
+				$(".listheadone").toggle();
 				});
+				
+				$(".subheadtwo").click(function() {
+				$(".listheadtwo").toggle();
+				});
+				
+				$(".subheadthree").click(function() {
+				$(".listheadthree").toggle();
+				});
+				
+				$(".subheadfour").click(function() {
+				$(".listheadfour").toggle();
+				});				
 
 
 }); 

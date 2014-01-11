@@ -23,6 +23,21 @@
 	padding: 40px;
 }
 
+	.subnavwhite a:link {
+		color: #075687;
+		cursor: context-menu;
+
+	}
+
+	.subnavwhite a:visited {
+		color: #075687;
+		cursor: context-menu;
+	}
+
+	.subnavwhite a:hover {
+		color: #075687;
+		cursor: context-menu;
+	}
 
 /* small size */
 @media only screen and (min-width: 0px) {
@@ -40,15 +55,21 @@
 		padding: 2%;
 		text-align: center;
 		text-decoration: none;
+		cursor: context-menu;
 	}
 
 	a:visited {
 		color: #FFFFFF;
+		cursor: context-menu;
+				text-decoration: none;
+
 	}
 
 	a:hover {
 		color: #FFFFFF;
 		cursor: context-menu;
+				text-decoration: none;
+
 	}
 
 	h1 {
@@ -73,12 +94,13 @@
     	list-style-type: none;
     	margin-left: 20%;
     	padding: 10px;
-    	text-decoration: none;
+    	font-size: 90%;
 	}
 
 	h2 {
 		text-align: center;
-		font-size: 100%;
+		font-size: 120%;
+		
 	}
 
 	p {
@@ -86,6 +108,7 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
 
 }/* end of small */
 
@@ -137,6 +160,7 @@
 		text-align: center;
 		text-decoration: none;
 		font-size: 120%;
+		cursor: context-menu;
 	}
 
 	h1 {
