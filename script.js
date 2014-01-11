@@ -37,25 +37,41 @@ $(document).ready(function() {
     	}, 2000);
 	});  
 	 
-	
 	// togglefunction for the subnavigation
-	// TODO soll vertikal scrollen und als default geschlossen sein
+
+  
+      var par = $('p');
+      $(".listheadone").hide();
+
+      $('.subheadone').click(function(e) {
+      $(".listheadone").slideToggle('slow');
+          e.preventDefault();
+      });
+ 
+      var par = $('p');
+      $(".listheadtwo").hide();
+
+      $('.subheadtwo').click(function(e) {
+      $(".listheadtwo").slideToggle('slow');
+          e.preventDefault();
+      });
+
+      var par = $('p');
+      $(".listheadthree").hide();
+
+      $('.subheadthree').click(function(e) {
+      $(".listheadthree").slideToggle('slow');
+          e.preventDefault();
+      });
+      
+      var par = $('p');
+      $(".listheadfour").hide();
+
+      $('.subheadfour').click(function(e) {
+      $(".listheadfour").slideToggle('slow');
+          e.preventDefault();
+      });
 	
-				$(".subheadone").click(function() {
-				$(".listheadone").toggle();
-				});
 				
-				$(".subheadtwo").click(function() {
-				$(".listheadtwo").toggle();
-				});
-				
-				$(".subheadthree").click(function() {
-				$(".listheadthree").toggle();
-				});
-				
-				$(".subheadfour").click(function() {
-				$(".listheadfour").toggle();
-				});				
-
-
-}); 
+});
+    	

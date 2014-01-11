@@ -49,14 +49,14 @@
 	}
 	
 
-	a:link {
-		color: #FFFFFF;
-		list-style-type: none;
-		padding: 2%;
-		text-align: center;
-		text-decoration: none;
-		cursor: context-menu;
-	}
+a:link {
+    color: #FFFFFF;
+    cursor: context-menu;
+    list-style-type: none;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+}
 
 	a:visited {
 		color: #FFFFFF;
@@ -79,28 +79,27 @@
 		position: relative;
 	}
 
-	nav {
-		background-color: #000000;
-		height: 25px;
-		left: 0;
-		padding: 3% 5% 5%;
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index: 1;
-	}
+nav {
+    background-color: #000000;
+    height: 25px;
+    left: 0;
+    padding: 6% 14% 10%;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 	
 	li {
-    	list-style-type: none;
-    	margin-left: 20%;
-    	padding: 10px;
     	font-size: 90%;
+    	list-style-type: none;
+    	text-align: center;
 	}
 
-	h2 {
+	 h2 {
 		text-align: center;
 		font-size: 120%;
-		
 	}
 
 	p {
@@ -115,10 +114,10 @@
 /* medium size */
 @media only screen and (min-width: 640px) {
 
-	h1 {
-		font-size: 500%;
-		text-align: center;
-	}
+h1 {
+    font-size: 430%;
+    text-align: center;
+}
 
 	nav {
 		background-color: #000000;
@@ -169,27 +168,28 @@
 		text-align: center;
 	}
 
-	nav {
-		background-color: #000000;
-		height: 32px;
-		left: 0;
-		padding: 1% 5% 3% 4%;
-		position: fixed;
-		top: 0;
-		width: 100%;
-		font-size: 140%
-	}
+nav {
+    background-color: #000000;
+    font-size: 140%;
+    height: 32px;
+    left: 0;
+    padding: 3% 7% 2% 13%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
-	h2 {
-		text-align: center;
-		font-size: 160%;
-		margin-top: -5%
-	}
+h2 {
+    display: block;
+    font-size: 160%;
+    padding: 17px;
+    text-align: center;
+}
 	
 	p {
 		padding-left: 15%;
 		padding-right: 15%;
-		
 	}
+
 
 }
