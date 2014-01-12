@@ -21,43 +21,39 @@
 #firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle {
 	text-align: center;
 	padding: 40px;
+	cursor: context-menu;	
+	text-decoration:underline;
 }
 
-	.subnavwhite a:link {
-		color: #075687;
-		cursor: context-menu;
+#firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle a:link {
+	text-align: center;
+	padding: 40px;
+}
 
-	}
+.subnavwhite a:link {
+	color: #075687;
+	cursor: context-menu;
+}
 
-	.subnavwhite a:visited {
-		color: #075687;
-		cursor: context-menu;
-	}
+.subnavwhite a:visited {
+	color: #075687;
+	cursor: context-menu;
+}
 
-	.subnavwhite a:hover {
-		color: #075687;
-		cursor: context-menu;
-	}
+.subnavwhite a:hover {
+	color: #075687;
+	cursor: context-menu;
+}
 	
-	
-	.scrollicon {
-		text-align: center;
-		margin-top: -45px;
-		padding-bottom: 200px;
-	}
+.scrollicon {
+	text-align: center;
+	margin-top: -45px;
+	padding-bottom: 200px;
+}
 
 	
 /* small size */
 @media only screen and (min-width: 0px) {
-
-
-.backicon {
-	text-align: left;
-	margin-top: -30px;
-	margin-left: -230px;
-	height: 20px;
-	width: 20px;
-}
 
 body {
 	background-color: #075687;
@@ -69,7 +65,7 @@ a:link {
     color: #FFFFFF;
     cursor: context-menu;
     list-style-type: none;
-    padding: 12%;
+    padding: 0 5% 1% 1%;
     text-align: center;
     text-decoration: none;
 }
@@ -104,6 +100,15 @@ nav {
     width: 100%;
     z-index: 1;
 }
+
+nav img {
+    height: 18px;
+    margin-left: -165px;
+    margin-top: -2px;
+    position: absolute;
+    text-align: left;
+    width: 18px;
+}
 	
 li {
    	font-size: 90%;
@@ -135,9 +140,12 @@ th {
 	padding-top: 3px;
 }
 
-
-
-}/* end of small */
+.indoc img {
+    margin-left: 43%;
+    width:10%;
+    height:10%;
+}
+/* end of small */
 
 /* medium size */
 @media only screen and (min-width: 640px) {
@@ -167,6 +175,14 @@ nav {
 	font-size: 110%
 }
 	
+nav img {
+    height: 25px;
+    margin-left: -185px;
+    margin-top: -5px;
+    position: absolute;
+    text-align: left;
+    width: 25px;
+}
 
 h2 {
 	text-align: center;
@@ -193,22 +209,16 @@ th {
 	padding-top: 3px;
 }
 
-.backicon {
-	text-align: left;
+.indoc img {
+    margin-left: 39%;
+    width:10%;
+    height:10%;
 }
 
-}/* end of medium */
+/* end of medium */
 
 /* big size */
 @media only screen and (min-width: 1024px) {
-
-.backicon {
-	text-align: left;
-	margin-top: -30px;
-	margin-left: -230px;
-	height: 30px;
-	width: 30px;
-}
 
 body {
 	/*	height: 4800px; */
@@ -241,6 +251,15 @@ nav {
     width: 100%;
 }
 
+nav img {
+    height: 30px;
+    margin-left: -280px;
+    margin-top: -3px;
+    position: absolute;
+    text-align: left;
+    width: 30px;
+}
+
 h2 {
     display: block;
     font-size: 160%;
@@ -261,4 +280,9 @@ table {
 
 td {
     padding: 10px 34px 25px 35px;
+}
+
+.indoc img {
+    margin-left: 45%;
+
 }
