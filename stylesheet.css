@@ -132,6 +132,12 @@ table {
    margin: auto;
 }
 
+table img {
+	width: 50%;
+	height: 50%; 
+	margin:auto:
+}
+
 td {
     padding: 1px 1px 3px 11px;
 }
