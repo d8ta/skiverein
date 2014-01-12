@@ -38,52 +38,66 @@
 		color: #075687;
 		cursor: context-menu;
 	}
+	
+	
+	.scrollicon {
+		text-align: center;
+		margin-top: -45px;
+		padding-bottom: 200px;
+	}
 
+	
 /* small size */
 @media only screen and (min-width: 0px) {
 
-	body {
-		background-color: #075687;
-		color: #FFFFFF;
-		font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
-	}
-	
 
+.backicon {
+	text-align: left;
+	margin-top: -30px;
+	margin-left: -230px;
+	height: 20px;
+	width: 20px;
+}
+
+body {
+	background-color: #075687;
+	color: #FFFFFF;
+	font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+}
+	
 a:link {
     color: #FFFFFF;
     cursor: context-menu;
     list-style-type: none;
-    padding: 5%;
+    padding: 12%;
     text-align: center;
     text-decoration: none;
 }
 
-	a:visited {
-		color: #FFFFFF;
-		cursor: context-menu;
-				text-decoration: none;
+a:visited {
+	color: #FFFFFF;
+	cursor: context-menu;
+	text-decoration: none;
+}
 
-	}
+a:hover {
+	color: #FFFFFF;
+	cursor: context-menu;
+	text-decoration: none;	
+}
 
-	a:hover {
-		color: #FFFFFF;
-		cursor: context-menu;
-				text-decoration: none;
-
-	}
-
-	h1 {
-		padding-top: 20%;
-		font-size: 275%;
-		text-align: center;
-		position: relative;
+h1 {
+	padding-top: 20%;
+	font-size: 275%;
+	text-align: center;
+	position: relative;
 	}
 
 nav {
     background-color: #000000;
     height: 25px;
     left: 0;
-    padding: 6% 14% 10%;
+    padding: 0% 12% 10% 10%;
     position: fixed;
     text-align: left;
     top: 0;
@@ -91,22 +105,36 @@ nav {
     z-index: 1;
 }
 	
-	li {
-    	font-size: 90%;
-    	list-style-type: none;
-    	text-align: center;
-	}
+li {
+   	font-size: 90%;
+   	list-style-type: none;
+   	text-align: center;
+}
 
-	 h2 {
-		text-align: center;
-		font-size: 120%;
-	}
+ h2 {
+	text-align: center;
+	font-size: 120%;
+}
 
-	p {
-		text-align: justify;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
+p {
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+	
+table {
+   font-size: 90%;
+   margin: auto;
+}
+
+td {
+    padding: 1px 1px 3px 11px;
+}
+
+th {
+	padding-top: 3px;
+}
+
 
 
 }/* end of small */
@@ -114,59 +142,93 @@ nav {
 /* medium size */
 @media only screen and (min-width: 640px) {
 
+a:link {
+    color: #FFFFFF;
+    cursor: context-menu;
+    list-style-type: none;
+    padding: 0% 10% 10% 10%;
+    text-align: center;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 430%;
     text-align: center;
 }
 
-	nav {
-		background-color: #000000;
-		height: 32px;
-		left: 0;
-		padding: 1% 5% 5% 5%;
-		position: fixed;
-		top: 0;
-		width: 100%;
-		font-size: 120%
-	}
+nav {
+	background-color: #000000;
+	height: 32px;
+	left: 0;
+	padding: 1% 5% 5% 5%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-size: 110%
+}
 	
 
-	h2 {
-		text-align: center;
-		font-size: 140%;
-	}
+h2 {
+	text-align: center;
+	font-size: 140%;
+}
 
-	p {
-		text-align: justify;
-		padding-left: 10%;
-		padding-right: 10%;
-		margin-top: 70px;
-	}
+p {
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 70px;
+}
+	
+table {
+    font-size: 165%;
+    margin: auto;
+}
+
+td {
+    padding: 5px 34px 25px 35px;
+}
+
+th {
+	padding-top: 3px;
+}
+
+.backicon {
+	text-align: left;
+}
 
 }/* end of medium */
 
 /* big size */
 @media only screen and (min-width: 1024px) {
 
-	body {
-		/*	height: 4800px; */
-	}
+.backicon {
+	text-align: left;
+	margin-top: -30px;
+	margin-left: -230px;
+	height: 30px;
+	width: 30px;
+}
 
-	a:link {
-		color: #FFFFFF;
-		list-style-type: none;
-		padding: 2%;
-		text-align: center;
-		text-decoration: none;
-		font-size: 120%;
-		cursor: context-menu;
-	}
+body {
+	/*	height: 4800px; */
+}
 
-	h1 {
-		padding-top: 10%;
-		font-size: 700%;
-		text-align: center;
-	}
+a:link {
+	color: #FFFFFF;
+	list-style-type: none;
+	padding: 2%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 120%;
+	cursor: context-menu;
+}
+
+h1 {
+	padding-top: 10%;
+	font-size: 700%;
+	text-align: center;
+}
 
 nav {
     background-color: #000000;
@@ -186,10 +248,17 @@ h2 {
     text-align: center;
 }
 	
-	p {
-		padding-left: 15%;
-		padding-right: 15%;
-	}
+p {
+	padding-left: 15%;
+	padding-right: 15%;
+}
 
 
+table {
+    font-size: 180%;
+    margin: auto;
+}
+
+td {
+    padding: 10px 34px 25px 35px;
 }
