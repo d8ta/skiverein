@@ -5,6 +5,10 @@
 	min-height: 1000px;
 }
 
+.noneunderline {
+	text-decoration: none;
+}
+
 /* white background */
 #intro, #board, #termine {
 	background-color: #ffffff;
@@ -21,7 +25,6 @@
 #firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle {
 	text-align: center;
 	padding: 40px;
-	cursor: context-menu;	
 	text-decoration:underline;
 }
 
@@ -32,17 +35,17 @@
 
 .subnavwhite a:link {
 	color: #075687;
-	cursor: context-menu;
-}
+	text-decoration: underline;
+}	
 
 .subnavwhite a:visited {
 	color: #075687;
-	cursor: context-menu;
+	text-decoration: underline;
 }
 
 .subnavwhite a:hover {
 	color: #075687;
-	cursor: context-menu;
+	text-decoration: underline;
 }
 	
 .scrollicon {
@@ -63,23 +66,20 @@ body {
 	
 a:link {
     color: #FFFFFF;
-    cursor: context-menu;
     list-style-type: none;
     padding: 0 5% 1% 1%;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
 	color: #FFFFFF;
-	cursor: context-menu;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
 	color: #FFFFFF;
-	cursor: context-menu;
-	text-decoration: none;	
+	text-decoration: underline;	
 }
 
 h1 {
@@ -116,9 +116,11 @@ li {
    	text-align: center;
 }
 
- h2 {
+h2 {
 	text-align: center;
 	font-size: 120%;
+	text-decoration: underline;
+    cursor: hand;
 }
 
 p {
@@ -158,11 +160,10 @@ th {
 
 a:link {
     color: #FFFFFF;
-    cursor: context-menu;
     list-style-type: none;
     padding: 0% 10% 10% 10%;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 h1 {
@@ -191,8 +192,9 @@ nav img {
 }
 
 h2 {
-	text-align: center;
-	font-size: 140%;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
 }
 
 p {
@@ -235,9 +237,8 @@ a:link {
 	list-style-type: none;
 	padding: 2%;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: underline;
 	font-size: 120%;
-	cursor: context-menu;
 }
 
 h1 {
@@ -267,10 +268,9 @@ nav img {
 }
 
 h2 {
-    display: block;
-    font-size: 160%;
-    padding: 17px;
+    font-size: 200%;
     text-align: center;
+    text-decoration: underline;
 }
 	
 p {
