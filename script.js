@@ -24,22 +24,22 @@ $(document).ready(function() {
 			scrollTop : $("#aktuelles").offset().top
 		}, 2000);
  	});
- 	
+
 	$("#fifth, #fifthScrolle").click(function() {
 		$('html, body').animate({
 			scrollTop : $("#termine").offset().top
 		}, 2000);
 	});
-	
+
 	$("#sixth, #sixthScrolle").click(function() {
     	$('html, body').animate({
         	scrollTop: $("#foerderverein").offset().top
     	}, 2000);
-	});  
-	 
+	});
+
 	// togglefunction for the subnavigation
 
-  
+
       var par = $('p');
       $("#a1").hide();
 
@@ -54,7 +54,7 @@ $(document).ready(function() {
       $("#b1").slideToggle('slow');
           e.preventDefault();
       });
-   
+
       var par = $('p');
       $("#c1").hide();
 
@@ -62,7 +62,7 @@ $(document).ready(function() {
       $("#c1").slideToggle('slow');
           e.preventDefault();
       });
-   
+
       var par = $('p');
       $("#d1").hide();
 
@@ -70,7 +70,7 @@ $(document).ready(function() {
       $("#d1").slideToggle('slow');
           e.preventDefault();
       });
-      
+
       var par = $('p');
       $("#e1").hide();
 
@@ -78,7 +78,7 @@ $(document).ready(function() {
       $("#e1").slideToggle('slow');
           e.preventDefault();
       });
-      
+
       var par = $('p');
       $("#f1").hide();
       $("#f2").hide();
@@ -88,16 +88,16 @@ $(document).ready(function() {
           e.preventDefault();
                 $("#f2").slideToggle('slow');
           e.preventDefault();
-      });  
-      
+      });
+
       var par = $('p');
       $("#g1").hide();
 
       $('#g').click(function(e) {
       $("#g1").slideToggle('slow');
           e.preventDefault();
-      });          
-      
+      });
+
       var par = $('p');
       $("#h1").hide();
       $("#h2").hide();
@@ -107,8 +107,8 @@ $(document).ready(function() {
           e.preventDefault();
                 $("#h2").slideToggle('slow');
           e.preventDefault();
-      });  
-      
+      });
+
       var par = $('p');
       $("#i1").hide();
 
@@ -116,15 +116,15 @@ $(document).ready(function() {
       $("#i1").slideToggle('slow');
           e.preventDefault();
       });
-      
+
       var par = $('p');
       $("#j1").hide();
 
       $('#j').click(function(e) {
       $("#j1").slideToggle('slow');
           e.preventDefault();
-      }); 
-      
+      });
+
       var par = $('p');
       $("#k1").hide();
 
@@ -132,28 +132,28 @@ $(document).ready(function() {
       $("#k1").slideToggle('slow');
           e.preventDefault();
       });
-      
+
       var par = $('p');
       $("#l1").hide();
 
       $('#l').click(function(e) {
       $("#l1").slideToggle('slow');
           e.preventDefault();
-      });      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
- 
+      });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       var par = $('p');
       $(".listheadtwo").hide();
 
@@ -169,7 +169,7 @@ $(document).ready(function() {
       $(".listheadthree").slideToggle('slow');
           e.preventDefault();
       });
-      
+
       var par = $('p');
       $(".listheadfour").hide();
 
@@ -177,7 +177,6 @@ $(document).ready(function() {
       $(".listheadfour").slideToggle('slow');
           e.preventDefault();
       });
-	
-				
+
+
 });
-    	
