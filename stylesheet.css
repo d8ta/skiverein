@@ -166,6 +166,7 @@ th {
     width:10%;
     height:10%;
 }
+}
 /* end of small */
 
 /* medium size */
@@ -235,14 +236,13 @@ th {
     width:10%;
     height:10%;
 }
-
+}
 /* end of medium */
 
 /* big size */
 @media only screen and (min-width: 1024px) {
 
 body {
-	/*	height: 4800px; */
 }
 
 a:link {
@@ -282,13 +282,15 @@ nav img {
 
 h2 {
     font-size: 200%;
-    text-align: center;
     text-decoration: underline;
+    float: left;
+    margin-left: 70px;
 }
 
 p {
 	padding-left: 15%;
 	padding-right: 15%;
+    margin-top: 222px;
 }
 
 
@@ -304,4 +306,5 @@ td {
 .indoc img {
     margin-left: 45%;
 
+}
 }
