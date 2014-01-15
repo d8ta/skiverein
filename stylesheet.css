@@ -1,4 +1,3 @@
-
 /* blue background */
 #start, #alpin, #aktuelles, #foerderverein {
 	background-color: #075687;
@@ -6,10 +5,8 @@
 	min-height: 1000px;
 }
 
-.normal {
+.noneunderline {
 	text-decoration: none;
-    text-align: center;
-    float:none;
 }
 
 /* white background */
@@ -17,6 +14,12 @@
 	background-color: #ffffff;
 	color: #075687;
 	min-height: 1000px;
+}
+
+form {
+    margin-left: 20%;
+    margin-top: 30px;
+    text-align: center;
 }
 
 
@@ -38,12 +41,10 @@
 
 .whiteback {
     background-color: #ffffff;
-
 }
 
 .bluewords {
     color: #075687;
-    float: none;
 }
 
 .subnavwhite a:link {
@@ -70,12 +71,6 @@
 .foot {
     font-size: 60%;
     width: 100%;
-}
-
-p img {
-    text-align: center;
-    margin-left: 50%;
-    margin-top: 40px;
 }
 
 
@@ -160,6 +155,7 @@ table {
 
 table img {
 	width: 50%;
+	height: 50%;
 }
 
 
@@ -175,7 +171,6 @@ th {
     margin-left: 43%;
     width:10%;
     height:10%;
-}
 }
 /* end of small */
 
@@ -246,13 +241,14 @@ th {
     width:10%;
     height:10%;
 }
-}
+
 /* end of medium */
 
 /* big size */
 @media only screen and (min-width: 1024px) {
 
 body {
+	/*	height: 4800px; */
 }
 
 a:link {
@@ -291,16 +287,14 @@ nav img {
 }
 
 h2 {
-font-size: 200%;
-text-decoration: underline;
-float: left;
-margin-left: 5%;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
 }
 
 p {
 	padding-left: 15%;
 	padding-right: 15%;
-    margin-top: 222px;
 }
 
 
@@ -316,5 +310,4 @@ td {
 .indoc img {
     margin-left: 45%;
 
-}
 }

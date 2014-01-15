@@ -25,11 +25,54 @@
 
 		<section>
 
-			<h2 class="normal">Der Aufnahmeantrag für den SC Schellenberg als PDF</h2>
+			<h2 class="noneunderline">Der Aufnahmeantrag für den SC Schellenberg als PDF</h2>
 
 			<p class="indoc"><a href="../dokumente/Aufnahmeantrag_SC Schellenberg.pdf" target="_blank"><img src="../zeichen/document_white64.png"></a></p>
 
 		</section>
+
+<!--     <form name="kontakt" method="get" action="../kontakt.php">
+
+        <fieldset class="address">
+            <legend>Schreibe eine Nachricht an uns</legend>
+            <p><label for="first-name">Vorname</label>
+            <input type="text" value="" placeholder="Vorname" name="first_name" id ="first-name" required pattern="[a-zA-Z]+"></p>
+            <p><label for="last_name">Nachname</label>
+            <input type="text" value="" placeholder="Nachname" name="last_name" id="last_name" required pattern="[a-zA-Z]+"></p>
+            <p><label for="email">Email</label>
+            <input type="text" value="" placeholder="Email" name="email" id="email" required></p>
+            <p><label for="phone">Telefon</label>
+            <input type="text" value="" name="phone" placeholder="0049123456" id="phone" required pattern="[0-9]+"></p>
+            <p><label for="nachricht">Nachricht</label>
+            <input type="text" value="" placeholder="Deine Nachricht" name="nachricht" id="nachricht" required></p>
+        </fieldset>
+
+        <input type="submit" value="senden">
+    </form> -->
+
+
+
+
+
+
+
+		<form action="mailto:mr.raudsch@gmail.com" method="POST" enctype="text/plain">
+			<h2 class="noneunderline">Oder nehmen Sie mit Kontakt zu uns auf!</h2>
+			<p>Geben Sie Ihre Emailadresse an<input type="text" name="email" placeholder="ich@some.net"></p>
+			<p>Wie lautet Ihr Vorname<input type="text" name="vorname" placeholder="Maxi"></p>
+			<p>Wie lautet Ihr Nachname<input type="text" name="nachname" placeholder="Musterfrau"></p>
+			<p>Wie alt sind Sie:<input type="text" name="age" placeholder="14"></p>
+
+			<p><textarea name="Nachricht">Deine Nachricht an uns</textarea></p>
+			<p><label><input type="radio" name="maennlich">Männlich</label>
+			<label><input type="radio" name="weiblich">Weiblich</label></p>
+			<p><select name="interest"></p>
+					<option>Interesse an</option>
+					<option>Ski</option>
+					<option>Snowboard</option>
+			</select>
+			<input type="submit" value="senden">
+		</form>
 
 		<footer class="foot">
 
