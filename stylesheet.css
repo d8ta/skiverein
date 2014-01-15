@@ -62,6 +62,11 @@
 	padding-bottom: 200px;
 }
 
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+
 
 /* small size */
 @media only screen and (min-width: 0px) {
@@ -145,8 +150,8 @@ table {
 table img {
 	width: 50%;
 	height: 50%;
-	margin:auto:
 }
+
 
 td {
     padding: 1px 1px 3px 11px;
