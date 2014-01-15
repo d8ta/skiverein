@@ -1,3 +1,4 @@
+
 /* blue background */
 #start, #alpin, #aktuelles, #foerderverein {
 	background-color: #075687;
@@ -5,8 +6,10 @@
 	min-height: 1000px;
 }
 
-.noneunderline {
+.normal {
 	text-decoration: none;
+    text-align: center;
+    float:none;
 }
 
 /* white background */
@@ -35,10 +38,12 @@
 
 .whiteback {
     background-color: #ffffff;
+
 }
 
 .bluewords {
     color: #075687;
+    float: none;
 }
 
 .subnavwhite a:link {
@@ -65,6 +70,12 @@
 .foot {
     font-size: 60%;
     width: 100%;
+}
+
+p img {
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 40px;
 }
 
 
@@ -149,7 +160,6 @@ table {
 
 table img {
 	width: 50%;
-	height: 50%;
 }
 
 
@@ -281,10 +291,10 @@ nav img {
 }
 
 h2 {
-    font-size: 200%;
-    text-decoration: underline;
-    float: left;
-    margin-left: 70px;
+font-size: 200%;
+text-decoration: underline;
+float: left;
+margin-left: 5%;
 }
 
 p {
