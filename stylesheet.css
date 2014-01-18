@@ -68,12 +68,6 @@ form {
 	padding-bottom: 200px;
 }
 
-.foot {
-    font-size: 60%;
-    width: 100%;
-}
-
-
 /* small size */
 @media only screen and (min-width: 0px) {
 
@@ -155,7 +149,7 @@ table {
 
 table img {
 	width: 50%;
-	height: 50%;
+	/*height: 50%;*/
 }
 
 
@@ -172,6 +166,12 @@ th {
     width:10%;
     height:10%;
 }
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+}
 /* end of small */
 
 /* medium size */
@@ -180,7 +180,7 @@ th {
 a:link {
     color: #FFFFFF;
     list-style-type: none;
-    padding: 0% 10% 10% 10%;
+    padding: 0% 10% -1% 10%;
     text-align: center;
     text-decoration: underline;
 }
@@ -198,7 +198,7 @@ nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	font-size: 110%
+	font-size: 140%
 }
 
 nav img {
@@ -242,6 +242,11 @@ th {
     height:10%;
 }
 
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+}
 /* end of medium */
 
 /* big size */
@@ -310,4 +315,10 @@ td {
 .indoc img {
     margin-left: 45%;
 
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
 }
