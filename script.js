@@ -3,25 +3,25 @@ $(document).ready(function() {
 	// scrolling from to the intro location
 	$("#first, #firstScrolle").click(function() {
 		$('html, body').animate({
-			scrollTop : $("#intro").offset().top
+			scrollTop : $("#aktuelles").offset().top
 		}, 2000);
 	});
 
 	$("#second, #secondScrolle").click(function() {
 		$('html, body').animate({
-			scrollTop : $("#alpin").offset().top
+			scrollTop : $("#intro").offset().top
 		}, 2000);
 	});
 
 	$("#third, #thirdScrolle").click(function() {
 		$('html, body').animate({
-			scrollTop : $("#board").offset().top
+			scrollTop : $("#alpin").offset().top
 		}, 2000);
 	});
 
 	$("#forth, #forthScrolle").click(function() {
 		$('html, body').animate({
-			scrollTop : $("#aktuelles").offset().top
+			scrollTop : $("#board").offset().top
 		}, 2000);
  	});
 

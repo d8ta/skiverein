@@ -1,5 +1,5 @@
 /* blue background */
-#start, #alpin, #aktuelles, #foerderverein {
+#start, #intro, #board, #foerderverein {
 	background-color: #075687;
 	color: #FFFFFF;
 	min-height: 1000px;
@@ -10,7 +10,7 @@
 }
 
 /* white background */
-#intro, #board, #termine {
+#aktuelles, #alpin, #termine {
 	background-color: #ffffff;
 	color: #075687;
 	min-height: 1000px;
@@ -37,6 +37,8 @@ form {
 #firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle a:link {
 	text-align: center;
 	padding: 40px;
+        text-decoration:underline;
+
 }
 
 .whiteback {
