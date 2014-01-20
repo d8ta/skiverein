@@ -43,6 +43,7 @@ form {
 
 .whiteback {
     background-color: #ffffff;
+    height: 300%;
 }
 
 .bluewords {
@@ -68,6 +69,14 @@ form {
 	text-align: center;
 	margin-top: -45px;
 	padding-bottom: 200px;
+}
+
+/*table {
+    width: 80%;
+}*/
+
+li a:link {
+    padding: 0%;
 }
 
 /* small size */
@@ -204,14 +213,13 @@ nav {
 }
 
 nav img {
-    height: 25px;
-    margin-left: -185px;
-    margin-top: -5px;
-    position: absolute;
-    text-align: left;
-    width: 25px;
+height: 25px;
+margin-left: -220px;
+margin-top: 0px;
+position: absolute;
+text-align: left;
+width: 25px;
 }
-
 h2 {
     font-size: 200%;
     text-align: center;
