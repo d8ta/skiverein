@@ -1,3 +1,33 @@
+.fadebuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+}
+
+.fadebuttonwhite {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+}
+
+#h {
+    color:#FFFFFF;
+}
+
+#f {
+    color:#075687;
+}
+
+#g {
+    color:#075687;
+}
+
 /* blue background */
 #start, #intro, #board, #foerderverein {
 	background-color: #075687;
@@ -8,6 +38,8 @@
 .noneunderline {
 	text-decoration: none;
 }
+
+
 
 /* white background */
 #aktuelles, #alpin, #termine {
@@ -65,13 +97,13 @@ span {
 #firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle {
 	text-align: center;
 	padding: 40px;
-	text-decoration:underline;
+	text-decoration:none;
 }
 
 #firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle a:link {
 	text-align: center;
 	padding: 40px;
-        text-decoration:underline;
+        text-decoration:none;
 
 }
 
@@ -86,17 +118,17 @@ span {
 
 .subnavwhite a:link {
 	color: #075687;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .subnavwhite a:visited {
 	color: #075687;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .subnavwhite a:hover {
 	color: #075687;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .scrollicon {
@@ -112,6 +144,24 @@ li a:link {
 
 /* small size */
 @media only screen and (min-width: 0px) {
+
+#extrabutton {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+}
+
+#extrabuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+}
 
 body {
 	background-color: #075687;
@@ -130,17 +180,17 @@ a:link {
     list-style-type: none;
     padding: 0 5% 1% 1%;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited {
 	color: #FFFFFF;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #FFFFFF;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 h1 {
@@ -179,8 +229,8 @@ li {
 
 h2 {
 	text-align: center;
-	font-size: 120%;
-	text-decoration: underline;
+	font-size: 220%;
+	text-decoration: none;
     cursor: hand;
 }
 
@@ -197,7 +247,6 @@ table {
 
 table img {
 	width: 50%;
-	/*height: 50%;*/
 }
 
 
@@ -210,9 +259,9 @@ th {
 }
 
 .zeichen {
-width: 30%;
-padding-left: 10%;
-padding-bottom: 10%;
+    width: 30%;
+    padding-left: 10%;
+    padding-bottom: 10%;
 }
 
 .indoc img {
@@ -231,12 +280,32 @@ padding-bottom: 10%;
 /* medium size */
 @media only screen and (min-width: 640px) {
 
+#extrabutton {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+    margin-left: 30%;
+}
+
+#extrabuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+    margin-left: 30%;
+}
+
 a:link {
     color: #FFFFFF;
     list-style-type: none;
     padding: 0% 10% -1% 10%;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h1 {
@@ -256,17 +325,17 @@ nav {
 }
 
 nav img {
-height: 25px;
-margin-left: -220px;
-margin-top: 0px;
-position: absolute;
-text-align: left;
-width: 25px;
+    height: 25px;
+    margin-left: -220px;
+    margin-top: 0px;
+    position: absolute;
+    text-align: left;
+    width: 25px;
 }
 h2 {
     font-size: 200%;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 p {
@@ -290,8 +359,8 @@ th {
 }
 
 .zeichen {
-width: 30%;
-padding-left: 10%;
+    width: 30%;
+    padding-left: 10%;
 }
 
 .indoc img {
@@ -310,8 +379,28 @@ padding-left: 10%;
 /* big size */
 @media only screen and (min-width: 1024px) {
 
+#extrabutton {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+    margin-left: 40%;
+}
+
+#extrabuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+    margin-left: 40%;
+}
+
+
 body {
-	/*	height: 4800px; */
 }
 
 .scs {
@@ -325,7 +414,7 @@ a:link {
 	list-style-type: none;
 	padding: 2%;
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: none;
 	font-size: 120%;
 }
 
@@ -359,7 +448,7 @@ nav img {
 h2 {
     font-size: 200%;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 p {
@@ -374,8 +463,8 @@ table {
 }
 
 .zeichen {
-width: 30%;
-padding-left: 10%;
+    width: 30%;
+    padding-left: 10%;
 }
 
 td {

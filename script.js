@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 	// scrolling from to the intro location
 	$("#first, #firstScrolle").click(function() {
 		$('html, body').animate({
