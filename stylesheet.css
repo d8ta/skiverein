@@ -29,23 +29,23 @@
 }
 
 /* blue background */
-#start, #intro, #board, #foerderverein {
+#start #intro, #board, #foerderverein {
 	background-color: #075687;
 	color: #FFFFFF;
-	min-height: 1000px;
+    height: 1500px;
 }
+
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 1500px;
+}
+
 
 .noneunderline {
 	text-decoration: none;
-}
-
-
-
-/* white background */
-#aktuelles, #alpin, #termine {
-	background-color: #ffffff;
-	color: #075687;
-	min-height: 1000px;
 }
 
 form {
@@ -89,7 +89,7 @@ span {
 }
 
 
-#intro, #board, #termine #start, #alpin, #aktuelles, #foerderverein h1 {
+#intro, #board, #termin, #start, #alpin, #aktuelles, #foerderverein, h1 {
 	text-align: center;
 	position: relative;
 }
@@ -103,7 +103,7 @@ span {
 #firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle a:link {
 	text-align: center;
 	padding: 40px;
-        text-decoration:none;
+    text-decoration:none;
 
 }
 
@@ -145,7 +145,7 @@ li a:link {
 /* small size */
 @media only screen and (min-width: 0px) {
 
-#extrabutton {
+/*#extrabutton {
     padding:5px 10px;
     background:#F2F2FF;
     width:300px;
@@ -161,7 +161,7 @@ li a:link {
     border-radius:15px;
     border-style: none;
     border-color: #336699;
-}
+}*/
 
 body {
 	background-color: #075687;
@@ -279,7 +279,7 @@ th {
 
 /* medium size */
 @media only screen and (min-width: 640px) {
-
+/*
 #extrabutton {
     padding:5px 10px;
     background:#F2F2FF;
@@ -298,7 +298,7 @@ th {
     border-style: none;
     border-color: #336699;
     margin-left: 30%;
-}
+}*/
 
 a:link {
     color: #FFFFFF;
@@ -379,7 +379,7 @@ th {
 /* big size */
 @media only screen and (min-width: 1024px) {
 
-#extrabutton {
+/*#extrabutton {
     padding:5px 10px;
     background:#F2F2FF;
     width:350px;
@@ -397,7 +397,7 @@ th {
     border-style: none;
     border-color: #336699;
     margin-left: 40%;
-}
+}*/
 
 
 body {

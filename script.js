@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 	$("#fifth, #fifthScrolle").click(function() {
 		$('html, body').animate({
-			scrollTop : $("#termine").offset().top
+			scrollTop : $("#termin").offset().top
 		}, 2000);
 	});
 
