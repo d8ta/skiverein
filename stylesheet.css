@@ -1,0 +1,775 @@
+/* blue background */
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 1500px;
+}
+
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 1500px;
+}
+
+#intro, #board, #termin, #start, #alpin, #aktuelles, #foerderverein, h1 {
+    text-align: center;
+    position: relative;
+}
+
+#firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle {
+    text-align: center;
+    padding: 40px;
+    text-decoration:none;
+}
+
+#firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle a:link {
+    text-align: center;
+    padding: 40px;
+    text-decoration:none;
+}
+
+/* Underlay für Kontaktelinks */
+#h {
+    color:#FFFFFF;
+}
+
+#f {
+    color:#075687;
+}
+
+#g {
+    color:#075687;
+}
+
+.noneunderline {
+	text-decoration: none;
+}
+
+.scs {
+    margin-left: 40%;
+    margin-bottom: 4%;
+    width: 13%;
+}
+
+.intext a:link {
+    padding: 0%;
+    font-size: 100%;
+}
+
+.intext_blue a:link {
+    padding: 0%;
+    font-size: 100%;
+    color: #075687;
+}
+
+.intext_blue a:visited {
+    padding: 0%;
+    font-size: 100%;
+    color: #075687;
+}
+
+.whiteback {
+    background-color: #ffffff;
+    height: 300%;
+}
+
+.bluewords {
+    color: #075687;
+}
+
+.subnavwhite a:link {
+    color: #075687;
+    text-decoration: none;
+}
+
+.subnavwhite a:visited {
+    color: #075687;
+    text-decoration: none;
+}
+
+.subnavwhite a:hover {
+    color: #075687;
+    text-decoration: none;
+}
+
+.scrollicon {
+    text-align: center;
+    margin-top: -45px;
+    padding-bottom: 200px;
+}
+
+body {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin-left: 25%;
+    margin-right: auto;
+    position: absolute;
+    padding-bottom: 30%
+}
+
+form p {
+    margin-top: 0%;
+}
+
+span {
+    font-weight: bold;
+}
+
+li a:link {
+    padding: 0%;
+}
+
+
+
+
+
+/* small size */
+@media only screen and (min-width: 320px) {
+
+/*#extrabutton {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+}
+
+#extrabuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+}*/
+
+/* Logo des SC Schellenberg */
+.scs {
+    margin-left: 40%;
+    margin-bottom: 4%;
+    width: 20%;
+}
+
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+.indoc img {
+    margin-left: 43%;
+    width:10%;
+    height:10%;
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 0 5% 1% 1%;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+h1 {
+	padding-top: 20%;
+	font-size: 275%;
+	text-align: center;
+	position: relative;
+	}
+
+nav {
+    background-color: #000000;
+    height: 25px;
+    left: 0;
+    padding: 0% 12% 10% 10%;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav img {
+    height: 18px;
+    margin-left: -165px;
+    margin-top: -2px;
+    position: absolute;
+    text-align: left;
+    width: 18px;
+}
+
+li {
+   	font-size: 90%;
+   	list-style-type: none;
+   	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font-size: 220%;
+	text-decoration: none;
+    cursor: hand;
+}
+
+p {
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+table {
+   font-size: 90%;
+   margin: auto;
+}
+
+table img {
+	width: 50%;
+}
+
+
+td {
+    padding: 1px 1px 3px 11px;
+}
+
+th {
+	padding-top: 3px;
+}
+
+}
+/* end of small */
+
+
+
+
+/* medium size */
+@media only screen and (min-width: 481px) {
+/*
+#extrabutton {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+    margin-left: 30%;
+}
+
+#extrabuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:300px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+    margin-left: 30%;
+}*/
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 0% 10% -1% 10%;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 430%;
+    text-align: center;
+}
+
+nav {
+	background-color: #000000;
+	height: 32px;
+	left: 0;
+	padding: 1% 5% 5% 5%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-size: 140%
+}
+
+nav img {
+    height: 25px;
+    margin-left: -220px;
+    margin-top: 0px;
+    position: absolute;
+    text-align: left;
+    width: 25px;
+}
+h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 70px;
+}
+
+table {
+    font-size: 165%;
+    margin: auto;
+}
+
+td {
+    padding: 5px 34px 25px 35px;
+}
+
+th {
+	padding-top: 3px;
+}
+
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.indoc img {
+    margin-left: 39%;
+    width:10%;
+    height:10%;
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+}
+/* end of medium */
+
+/* big size */
+@media only screen and (min-width: 641px) {
+
+/*#extrabutton {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+    margin-left: 40%;
+}
+
+#extrabuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+    margin-left: 40%;
+}*/
+
+.scs {
+    margin-left: 43%;
+    margin-bottom: 4%;
+    width: 12%;
+}
+
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.indoc img {
+    margin-left: 45%;
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+
+a:link {
+	color: #FFFFFF;
+	list-style-type: none;
+	padding: 2%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+h1 {
+	padding-top: 10%;
+	font-size: 700%;
+	text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    font-size: 140%;
+    height: 32px;
+    left: 0;
+    padding: 3% 7% 2% 13%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav img {
+    height: 30px;
+    margin-left: -280px;
+    margin-top: -3px;
+    position: absolute;
+    text-align: left;
+    width: 30px;
+}
+
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+
+table {
+    font-size: 180%;
+    margin: auto;
+}
+
+td {
+    padding: 10px 34px 25px 35px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 961px) {
+/*#extrabutton {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+    margin-left: 40%;
+}
+
+#extrabuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+    margin-left: 40%;
+}*/
+
+.scs {
+    margin-left: 43%;
+    margin-bottom: 4%;
+    width: 12%;
+}
+
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.indoc img {
+    margin-left: 45%;
+
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 700%;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    font-size: 140%;
+    height: 32px;
+    left: 0;
+    padding: 3% 7% 2% 13%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav img {
+    height: 30px;
+    margin-left: -280px;
+    margin-top: -3px;
+    position: absolute;
+    text-align: left;
+    width: 30px;
+}
+
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+table {
+    font-size: 180%;
+    margin: auto;
+}
+
+td {
+    padding: 10px 34px 25px 35px;
+}
+
+}
+
+
+@media only screen and (min-width: 1025px) {
+/*#extrabutton {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+    margin-left: 40%;
+}
+
+#extrabuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+    margin-left: 40%;
+}*/
+
+.scs {
+    margin-left: 43%;
+    margin-bottom: 4%;
+    width: 12%;
+}
+
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.indoc img {
+    margin-left: 45%;
+
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 700%;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    font-size: 140%;
+    height: 32px;
+    left: 0;
+    padding: 3% 7% 2% 13%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav img {
+    height: 30px;
+    margin-left: -280px;
+    margin-top: -3px;
+    position: absolute;
+    text-align: left;
+    width: 30px;
+}
+
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+table {
+    font-size: 180%;
+    margin: auto;
+}
+
+td {
+    padding: 10px 34px 25px 35px;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 1281px) {
+/*#extrabutton {
+    padding:5px 10px;
+    background:#F2F2FF;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #F2F2FF;
+    margin-left: 40%;
+}
+
+#extrabuttonblue {
+    padding:5px 10px;
+    background:#336699;
+    width:350px;
+    border-radius:15px;
+    border-style: none;
+    border-color: #336699;
+    margin-left: 40%;
+}*/
+
+.scs {
+    margin-left: 43%;
+    margin-bottom: 4%;
+    width: 12%;
+}
+
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.indoc img {
+    margin-left: 45%;
+
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 700%;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    font-size: 140%;
+    height: 32px;
+    left: 0;
+    padding: 3% 7% 2% 13%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav img {
+    height: 30px;
+    margin-left: -280px;
+    margin-top: -3px;
+    position: absolute;
+    text-align: left;
+    width: 30px;
+}
+
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+table {
+    font-size: 180%;
+    margin: auto;
+}
+
+td {
+    padding: 10px 34px 25px 35px;
+}
+
+}
