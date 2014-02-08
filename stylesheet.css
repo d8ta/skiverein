@@ -774,9 +774,25 @@ td {
     width: 100%;
 }
 
+ul.diashow {
+    margin:0px auto;
+    width:600px; /* Breite der Diashow */
+    height:250px; /* Höhe der Diashow */
+    overflow:hidden;
+    padding:0px;
+}
+ul.diashow > li {
+    padding:0px;
+    margin:-0px;
+    list-style:none;
+    width:100%;
+    display:none;
+    height:100%;
+}
+
 iframe {
     height: 35%;
-    width: 80%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
 }
