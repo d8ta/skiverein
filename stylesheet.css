@@ -1,37 +1,8 @@
-/* blue background */
-#start #intro, #board, #foerderverein {
-    background-color: #075687;
-    color: #FFFFFF;
-    width: 100%;
-    height: 1500px;
+#aktuelles table {
+    font-size: 80%;
 }
 
-/* white background */
-#aktuelles, #alpin, #termin {
-    background-color: #ffffff;
-    color: #075687;
-    width: 100%;
-    height: 1500px;
-}
-
-#intro, #board, #termin, #start, #alpin, #aktuelles, #foerderverein, h1 {
-    text-align: center;
-    position: relative;
-}
-
-#firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle {
-    text-align: center;
-    padding: 40px;
-    text-decoration:none;
-}
-
-#firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle a:link {
-    text-align: center;
-    padding: 40px;
-    text-decoration:none;
-}
-
-/* Underlay für Kontaktelinks */
+/* Textlinks für Kontakte */
 #h {
     color:#FFFFFF;
 }
@@ -44,8 +15,36 @@
     color:#075687;
 }
 
+/* blue background */
+#start #intro, #board, #foerderverein {
+	background-color: #075687;
+	color: #FFFFFF;
+    height: 1500px;
+    width: 100%;
+}
+
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 1500px;
+}
+
+
 .noneunderline {
 	text-decoration: none;
+}
+
+form {
+    margin-left: 25%;
+    margin-right: auto;
+    position: absolute;
+    padding-bottom: 30%
+}
+
+form p {
+    margin-top: 0%;
 }
 
 .scs {
@@ -71,9 +70,35 @@
     color: #075687;
 }
 
+
+
+span {
+    font-weight: bold;
+}
+
+
+#intro, #board, #termin, #start, #alpin, #aktuelles, #foerderverein, h1 {
+	text-align: center;
+	position: relative;
+}
+
+#firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle {
+	text-align: center;
+	padding: 40px;
+	text-decoration:none;
+}
+
+#firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle a:link {
+	text-align: center;
+	padding: 40px;
+    text-decoration:none;
+
+}
+
 .whiteback {
     background-color: #ffffff;
     height: 300%;
+    width: 100%;
 }
 
 .bluewords {
@@ -81,58 +106,33 @@
 }
 
 .subnavwhite a:link {
-    color: #075687;
-    text-decoration: none;
+	color: #075687;
+	text-decoration: none;
 }
 
 .subnavwhite a:visited {
-    color: #075687;
-    text-decoration: none;
+	color: #075687;
+	text-decoration: none;
 }
 
 .subnavwhite a:hover {
-    color: #075687;
-    text-decoration: none;
+	color: #075687;
+	text-decoration: none;
 }
 
 .scrollicon {
-    text-align: center;
-    margin-top: -45px;
-    padding-bottom: 200px;
+	text-align: center;
+	margin-top: -45px;
+	padding-bottom: 200px;
 }
 
-body {
-    background-color: #075687;
-    color: #FFFFFF;
-    width: 100%;
-    font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
-}
-
-form {
-    margin-left: 25%;
-    margin-right: auto;
-    position: absolute;
-    padding-bottom: 30%
-}
-
-form p {
-    margin-top: 0%;
-}
-
-span {
-    font-weight: bold;
-}
 
 li a:link {
     padding: 0%;
 }
 
-
-
-
-
 /* small size */
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0px) {
 
 /*#extrabutton {
     padding:5px 10px;
@@ -152,28 +152,16 @@ li a:link {
     border-color: #336699;
 }*/
 
-/* Logo des SC Schellenberg */
+body {
+	background-color: #075687;
+	color: #FFFFFF;
+	font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+}
+
 .scs {
     margin-left: 40%;
     margin-bottom: 4%;
     width: 20%;
-}
-
-.zeichen {
-    width: 30%;
-    padding-left: 10%;
-    padding-bottom: 10%;
-}
-
-.indoc img {
-    margin-left: 43%;
-    width:10%;
-    height:10%;
-}
-
-.foot {
-    font-size: 60%;
-    width: 100%;
 }
 
 a:link {
@@ -259,14 +247,27 @@ th {
 	padding-top: 3px;
 }
 
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+.indoc img {
+    margin-left: 43%;
+    width:10%;
+    height:10%;
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
 }
 /* end of small */
 
-
-
-
 /* medium size */
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 640px) {
 /*
 #extrabutton {
     padding:5px 10px;
@@ -365,7 +366,7 @@ th {
 /* end of medium */
 
 /* big size */
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 1024px) {
 
 /*#extrabutton {
     padding:5px 10px;
@@ -387,24 +388,14 @@ th {
     margin-left: 40%;
 }*/
 
+
+body {
+}
+
 .scs {
     margin-left: 43%;
     margin-bottom: 4%;
     width: 12%;
-}
-
-.zeichen {
-    width: 30%;
-    padding-left: 10%;
-}
-
-.indoc img {
-    margin-left: 45%;
-}
-
-.foot {
-    font-size: 60%;
-    width: 100%;
 }
 
 a:link {
@@ -460,44 +451,13 @@ table {
     margin: auto;
 }
 
-td {
-    padding: 10px 34px 25px 35px;
-}
-
-}
-
-
-
-@media only screen and (min-width: 961px) {
-/*#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
-    margin-left: 40%;
-}
-
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #336699;
-    margin-left: 40%;
-}*/
-
-.scs {
-    margin-left: 43%;
-    margin-bottom: 4%;
-    width: 12%;
-}
-
 .zeichen {
     width: 30%;
     padding-left: 10%;
+}
+
+td {
+    padding: 10px 34px 25px 35px;
 }
 
 .indoc img {
@@ -509,267 +469,4 @@ td {
     font-size: 60%;
     width: 100%;
 }
-
-a:link {
-    color: #FFFFFF;
-    list-style-type: none;
-    padding: 2%;
-    text-align: center;
-    text-decoration: none;
-    font-size: 120%;
-}
-
-h1 {
-    padding-top: 10%;
-    font-size: 700%;
-    text-align: center;
-}
-
-nav {
-    background-color: #000000;
-    font-size: 140%;
-    height: 32px;
-    left: 0;
-    padding: 3% 7% 2% 13%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-nav img {
-    height: 30px;
-    margin-left: -280px;
-    margin-top: -3px;
-    position: absolute;
-    text-align: left;
-    width: 30px;
-}
-
-
-h2 {
-    font-size: 200%;
-    text-align: center;
-    text-decoration: none;
-}
-
-p {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-table {
-    font-size: 180%;
-    margin: auto;
-}
-
-td {
-    padding: 10px 34px 25px 35px;
-}
-
-}
-
-
-@media only screen and (min-width: 1025px) {
-/*#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
-    margin-left: 40%;
-}
-
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #336699;
-    margin-left: 40%;
-}*/
-
-.scs {
-    margin-left: 43%;
-    margin-bottom: 4%;
-    width: 12%;
-}
-
-.zeichen {
-    width: 30%;
-    padding-left: 10%;
-}
-
-.indoc img {
-    margin-left: 45%;
-
-}
-
-.foot {
-    font-size: 60%;
-    width: 100%;
-}
-
-a:link {
-    color: #FFFFFF;
-    list-style-type: none;
-    padding: 2%;
-    text-align: center;
-    text-decoration: none;
-    font-size: 120%;
-}
-
-h1 {
-    padding-top: 10%;
-    font-size: 700%;
-    text-align: center;
-}
-
-nav {
-    background-color: #000000;
-    font-size: 140%;
-    height: 32px;
-    left: 0;
-    padding: 3% 7% 2% 13%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-nav img {
-    height: 30px;
-    margin-left: -280px;
-    margin-top: -3px;
-    position: absolute;
-    text-align: left;
-    width: 30px;
-}
-
-
-h2 {
-    font-size: 200%;
-    text-align: center;
-    text-decoration: none;
-}
-
-p {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-
-table {
-    font-size: 180%;
-    margin: auto;
-}
-
-td {
-    padding: 10px 34px 25px 35px;
-}
-
-}
-
-
-
-
-@media only screen and (min-width: 1281px) {
-/*#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
-    margin-left: 40%;
-}
-
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #336699;
-    margin-left: 40%;
-}*/
-
-.scs {
-    margin-left: 43%;
-    margin-bottom: 4%;
-    width: 12%;
-}
-
-.zeichen {
-    width: 30%;
-    padding-left: 10%;
-}
-
-.indoc img {
-    margin-left: 45%;
-
-}
-
-.foot {
-    font-size: 60%;
-    width: 100%;
-}
-
-a:link {
-    color: #FFFFFF;
-    list-style-type: none;
-    padding: 2%;
-    text-align: center;
-    text-decoration: none;
-    font-size: 120%;
-}
-
-h1 {
-    padding-top: 10%;
-    font-size: 700%;
-    text-align: center;
-}
-
-nav {
-    background-color: #000000;
-    font-size: 140%;
-    height: 32px;
-    left: 0;
-    padding: 3% 7% 2% 13%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-nav img {
-    height: 30px;
-    margin-left: -280px;
-    margin-top: -3px;
-    position: absolute;
-    text-align: left;
-    width: 30px;
-}
-
-
-h2 {
-    font-size: 200%;
-    text-align: center;
-    text-decoration: none;
-}
-
-p {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-
-table {
-    font-size: 180%;
-    margin: auto;
-}
-
-td {
-    padding: 10px 34px 25px 35px;
-}
-
 }

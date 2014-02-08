@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Skiclub Schellenberg</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400' rel='stylesheet' type='text/css'>
+
+    <!-- Link to Google for jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type='text/javascript' src='script.js'></script>
+
+  </head>
+
+  <body>
+
+    <h1>Kontakte und Anfragen</h1>
+
+    <nav>
+      <a href="index.html#logo">Zurück zur Hauptseite
+      <img src="zeichen/arrow-left_white64.png" alt="icon arrow left">
+      </a>
+    </nav>
+
+
+    <form action="mailto:boensch@4-boensch.de" method="POST" enctype="text/plain">
+      <p>Geben Sie Ihre Emailadresse an</p>
+      <p><input type="text" name="email" placeholder="ich@some.net"></p>
+      <p>Wie lautet Ihr Vorname</p>
+      <p><input type="text" name="vorname" placeholder="Maxi"></p>
+      <p>Wie lautet Ihr Nachname</p>
+      <p><input type="text" name="nachname" placeholder="Musterfrau"></p>
+      <p>Wie alt sind Sie:</p>
+      <p><input type="text" name="age" placeholder="14"></p>
+
+      <p><textarea name="Nachricht" rows="4" cols="50" placeholder="Deine Nachricht an uns"></textarea></p>
+      <p><label><input type="radio" name="maennlich">Männlich</label>
+      <label><input type="radio" name="weiblich">Weiblich</label></p>
+      <p><select name="interest">
+          <option>Interesse an</option>
+          <option>Ski</option>
+          <option>Snowboard</option>
+      </select>
+      <input type="submit" value="senden"></p>
+
+    </form>
+
+    <footer class="foot">
+
+    </footer>
+  </body>
+</html>
