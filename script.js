@@ -59,15 +59,19 @@ $(document).ready(function() {
           e.preventDefault();
       });
 
-     var par = $('p');
+      var par = $('p');
       $("#g1").hide();
-      $("#g2").hide();
 
       $('#g').click(function(e) {
       $("#g1").slideToggle('slow');
           e.preventDefault();
-                $("#g2").slideToggle('slow');
-          e.preventDefault();
+      });
 
+      var par = $('i');
+      $("#i1").hide();
+
+      $('#i').click(function(e) {
+      $("#i1").slideToggle('slow');
+          e.preventDefault();
       });
 });
