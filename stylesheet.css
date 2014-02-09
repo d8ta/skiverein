@@ -1,36 +1,3 @@
-/* blue background */
-/*#start #intro, #board, #foerderverein {
-    background-color: #075687;
-    color: #FFFFFF;
-    width: 100%;
-    height: 2000px;
-}*/
-
-/* white background */
-/*#aktuelles, #alpin, #termin {
-    background-color: #ffffff;
-    color: #075687;
-    width: 100%;
-    height: 3000px;
-}*/
-
-#intro, #board, #termin, #start, #alpin, #aktuelles, #foerderverein, h1 {
-    text-align: center;
-    position: relative;
-}
-
-#firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle {
-    text-align: center;
-    padding: 40px;
-    text-decoration:none;
-}
-
-#firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle a:link {
-    text-align: center;
-    padding: 40px;
-    text-decoration:none;
-}
-
 /* Underlay für Kontaktelinks */
 #h {
     color:#FFFFFF;
@@ -44,15 +11,56 @@
     color:#075687;
 }
 
+/*blue background-color*/
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 2600px;
+}
+
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 2600px;
+}
+
+.scrollicon {
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top:10%;
+    padding-bottom: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.fadebuttonblue {
+    background-color: #336699;
+    border-radius: 13px;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fadebuttonwhite {
+    background-color: #F2F2FF;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+}
+
 .noneunderline {
 	text-decoration: none;
 }
 
 .scs {
-    margin-left: auto;
+    margin-left: 32%;
     margin-right: auto;
     margin-bottom: 4%;
-    width: 13%;
+    width: 30%;
 }
 
 .intext a:link {
@@ -96,12 +104,21 @@
     text-decoration: unterline;
 }
 
-.scrollicon {
-    margin-left: 45%;
-    margin-right: auto;
-    padding-bottom: 100px;
-    float: left;
-    cursor: pointer;
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+.indoc img {
+    margin-left: 43%;
+    width:10%;
+    height:10%;
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
 }
 
 body {
@@ -134,30 +151,132 @@ li a:link {
     padding: 0%;
 }
 
+li {
+    font-size: 180%;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
 
+nav {
+    background-color: #000000;
+    height: 235px;
+    left: 0;
+    padding: 0% 12% 10% 0%;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 0 5% 1% 1%;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: unterline;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 75%;
+}
+
+li {
+    font-size: 180%;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
+
+nav {
+    background-color: #000000;
+    height: 235px;
+    left: 0;
+    padding: 0% 12% 10% 10%;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav img {
+    height: 18px;
+    margin-left: -165px;
+    margin-top: -2px;
+    position: absolute;
+    text-align: left;
+    width: 18px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 220%;
+    text-decoration: none;
+    cursor: hand;
+}
+
+p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table {
+   font-size: 90%;
+   margin: auto;
+}
+
+table img {
+    width: 50%;
+}
+
+
+td {
+    padding: 1px 1px 3px 11px;
+}
+
+th {
+    padding-top: 3px;
+}
+
+}
 
 
 
 /* small size */
 @media only screen and (min-width: 320px) {
-
-/*#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:300px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
+/*blue background-color*/
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 2600px;
 }
 
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:300px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #336699;
-}*/
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 2600px;
+}
 
 /* Logo des SC Schellenberg */
 .scs {
@@ -208,11 +327,19 @@ h1 {
 	position: relative;
 	}
 
+li {
+    font-size: 180%;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
+
 nav {
     background-color: #000000;
-    height: 25px;
+    height: 235px;
     left: 0;
-    padding: 0% 12% 10% 10%;
+    padding: 0% 12% 10% 0%;
     position: fixed;
     text-align: left;
     top: 0;
@@ -227,12 +354,6 @@ nav img {
     position: absolute;
     text-align: left;
     width: 18px;
-}
-
-li {
-   	font-size: 90%;
-   	list-style-type: none;
-   	text-align: center;
 }
 
 h2 {
@@ -267,137 +388,96 @@ th {
 }
 
 }
-/* end of small */
 
 
 
 
-/* medium size */
 @media only screen and (min-width: 481px) {
-/*
-#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:300px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
-    margin-left: 30%;
-}
-
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:300px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #336699;
-    margin-left: 30%;
-}*/
-
-a:link {
+/*blue background-color*/
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
     color: #FFFFFF;
-    list-style-type: none;
-    padding: 0% 10% -1% 10%;
-    text-align: center;
-    text-decoration: none;
-}
-
-h1 {
-    font-size: 430%;
-    text-align: center;
-}
-
-nav {
-	background-color: #000000;
-	height: 32px;
-	left: 0;
-	padding: 1% 5% 5% 5%;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	font-size: 140%
-}
-
-nav img {
-    height: 25px;
-    margin-left: -220px;
-    margin-top: 0px;
-    position: absolute;
-    text-align: left;
-    width: 25px;
-}
-h2 {
-    font-size: 200%;
-    text-align: center;
-    text-decoration: none;
-}
-
-p {
-	text-align: justify;
-	padding-left: 10%;
-	padding-right: 10%;
-	margin-top: 70px;
-}
-
-table {
-    font-size: 165%;
-    margin: auto;
-}
-
-td {
-    padding: 5px 34px 25px 35px;
-}
-
-th {
-	padding-top: 3px;
-}
-
-.zeichen {
-    width: 30%;
-    padding-left: 10%;
-}
-
-.indoc img {
-    margin-left: 39%;
-    width:10%;
-    height:10%;
-}
-
-.foot {
-    font-size: 60%;
     width: 100%;
-}
-}
-/* end of medium */
-
-/* big size */
-@media only screen and (min-width: 641px) {
-
-/*#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
-    margin-left: 40%;
+    height: 2600px;
 }
 
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 2600px;
+}
+
+/* Underlay für Kontaktelinks */
+#h {
+    color:#FFFFFF;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#f {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#g {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#i {
+    color:#075687;
+    font-size: 220%;
+    cursor: pointer;
+}
+
+#i , #g span {
+    font-size: 100%;
+}
+
+.subnavwhite {
+    width: 100%;
+    height: 2600px;
+}
+
+.subnavblue {
+    width: 100%;
+    height: 2600px;
+}
+
+.fadebuttonblue {
+    background-color: #336699;
+    border-radius: 13px;
     border-color: #336699;
-    margin-left: 40%;
-}*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fadebuttonwhite {
+    background-color: #F2F2FF;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+}
+
+.scrollicon {
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top:10%;
+    padding-bottom: 100px;
+    float: left;
+    cursor: pointer;
+}
 
 .scs {
-    margin-left: 43%;
+    margin-left: 37%;
+    margin-right: auto;
     margin-bottom: 4%;
-    width: 12%;
+    width: 25%;
 }
 
 .zeichen {
@@ -407,6 +487,7 @@ th {
 
 .indoc img {
     margin-left: 45%;
+
 }
 
 .foot {
@@ -414,41 +495,54 @@ th {
     width: 100%;
 }
 
+iframe {
+    height: 35%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a:link {
-	color: #FFFFFF;
-	list-style-type: none;
-	padding: 2%;
-	text-align: center;
-	text-decoration: none;
-	font-size: 120%;
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
 }
 
 h1 {
-	padding-top: 10%;
-	font-size: 700%;
-	text-align: center;
+    padding-top: 10%;
+    font-size: 560%;
+    text-align: center;
+    margin-top: 50%;
+}
+
+li {
+    font-size: 80%;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    padding: 5px;
 }
 
 nav {
     background-color: #000000;
-    font-size: 140%;
-    height: 32px;
-    left: 0;
-    padding: 3% 7% 2% 13%;
+    font-size: 200%;
+    height: 235px;
+    padding: 0% 0% 12% 0%;
     position: fixed;
-    top: 0;
     width: 100%;
 }
 
 nav img {
     height: 30px;
-    margin-left: -280px;
+    margin-left: -240px;
     margin-top: -3px;
     position: absolute;
     text-align: left;
     width: 30px;
 }
-
 
 h2 {
     font-size: 200%;
@@ -457,8 +551,179 @@ h2 {
 }
 
 p {
-	padding-left: 15%;
-	padding-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+table {
+    font-size: 180%;
+    margin: auto;
+}
+
+td {
+    padding: 10px 34px 25px 35px;
+}
+}
+@media only screen and (min-width: 610px) {
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 1500px;
+}
+
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 1500px;
+}
+
+/* Underlay für Kontaktelinks */
+#h {
+    color:#FFFFFF;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#f {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#g {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#i {
+    color:#075687;
+    font-size: 220%;
+    cursor: pointer;
+}
+
+#i , #g span {
+    font-size: 100%;
+}
+
+.subnavwhite {
+    width: 100%;
+    height: 2600px;
+}
+
+.subnavblue {
+    width: 100%;
+    height: 2600px;
+}
+
+.fadebuttonblue {
+    background-color: #336699;
+    border-radius: 13px;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fadebuttonwhite {
+    background-color: #F2F2FF;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+}
+
+.scrollicon {
+    margin-left: 46%;
+    margin-right: auto;
+    margin-top:10%;
+    padding-bottom: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.scs {
+    margin-left: 35%;
+    margin-right: auto;
+    margin-bottom: 4%;
+    width: 25%;
+}
+
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.indoc img {
+    margin-left: 45%;
+
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+
+iframe {
+    height: 35%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 560%;
+    text-align: center;
+    margin-top: 40%;
+}
+
+li {
+    font-size: 70%;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
+
+nav {
+    background-color: #000000;
+    font-size: 230%;
+    height: 235px;
+    position: fixed;
+    width: 100%;
+}
+
+nav img {
+    height: 30px;
+    margin-left: -240px;
+    margin-top: -3px;
+    position: absolute;
+    text-align: left;
+    width: 30px;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 
@@ -471,35 +736,275 @@ td {
     padding: 10px 34px 25px 35px;
 }
 
+}
+@media only screen and (min-width: 641px) {
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 2600px;
+}
+
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 2600px;
+}
+
+/* Underlay für Kontaktelinks */
+#h {
+    color:#FFFFFF;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#f {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#g {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#i {
+    color:#075687;
+    font-size: 220%;
+    cursor: pointer;
+}
+
+#i , #g span {
+    font-size: 100%;
+}
+
+.subnavwhite {
+    width: 100%;
+    height: 2600px;
+}
+
+.subnavblue {
+    width: 100%;
+    height: 2600px;
+}
+
+.fadebuttonblue {
+    background-color: #336699;
+    border-radius: 13px;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fadebuttonwhite {
+    background-color: #F2F2FF;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+}
+
+.scrollicon {
+    margin-left: 47%;
+    margin-right: auto;
+    margin-top:10%;
+    padding-bottom: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.scs {
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 4%;
+    width: 15%;
+}
+
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.indoc img {
+    margin-left: 45%;
+
+}
+
+.foot {
+    font-size: 60%;
+    width: 100%;
+}
+
+iframe {
+    height: 35%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 560%;
+    text-align: center;
+}
+
+li {
+    font-size: 55%;
+    list-style-type: none;
+    text-align: left;
+    display: inline;
+    padding-left: 1%;
+}
+
+nav {
+    background-color: #000000;
+    font-size: 195%;
+    height: 80px;
+    padding: 0% 0% 2% 5%;
+    position: fixed;
+    width: 100%;
+}
+
+nav img {
+    height: 30px;
+    margin-left: -240px;
+    margin-top: -3px;
+    position: absolute;
+    text-align: left;
+    width: 30px;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+table {
+    font-size: 180%;
+    margin: auto;
+}
+
+td {
+    padding: 10px 34px 25px 35px;
+}
+}
+
+@media only screen and (min-width: 775px) {
+li {
+    font-size: 69%;
+    list-style-type: none;
+    text-align: left;
+    display: inline;
+    padding-left: 1%;
+}
 }
 
 
 
 @media only screen and (min-width: 961px) {
-/*#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
-    margin-left: 40%;
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 2600px;
 }
 
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 2600px;
+}
+
+/* Underlay für Kontaktelinks */
+#h {
+    color:#FFFFFF;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#f {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#g {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#i {
+    color:#075687;
+    font-size: 220%;
+    cursor: pointer;
+}
+
+#i , #g span {
+    font-size: 100%;
+}
+
+.subnavwhite {
+    width: 100%;
+    height: 2600px;
+}
+
+.subnavblue {
+    width: 100%;
+    height: 2600px;
+}
+
+.fadebuttonblue {
+    background-color: #336699;
+    border-radius: 13px;
     border-color: #336699;
-    margin-left: 40%;
-}*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fadebuttonwhite {
+    background-color: #F2F2FF;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+}
+
+.scrollicon {
+    margin-left: 47%;
+    margin-right: auto;
+    margin-top:10%;
+    padding-bottom: 100px;
+    float: left;
+    cursor: pointer;
+}
 
 .scs {
-    margin-left: 43%;
+    margin-left: 40%;
     margin-bottom: 4%;
-    width: 12%;
+    width: 15%;
 }
 
 .zeichen {
@@ -517,13 +1022,20 @@ td {
     width: 100%;
 }
 
+iframe {
+    height: 35%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a:link {
     color: #FFFFFF;
     list-style-type: none;
     padding: 2%;
     text-align: center;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 115%;
 }
 
 h1 {
@@ -532,11 +1044,17 @@ h1 {
     text-align: center;
 }
 
+li {
+    display: inline;
+    padding-left: 12px;
+    font-size: 149%;
+}
+
 nav {
     background-color: #000000;
-    font-size: 140%;
-    height: 32px;
-    left: 0;
+    font-size: 120%;
+    height: 70px;
+    left: -13%;
     padding: 3% 7% 2% 13%;
     position: fixed;
     top: 0;
@@ -545,13 +1063,12 @@ nav {
 
 nav img {
     height: 30px;
-    margin-left: -280px;
+    margin-left: -240px;
     margin-top: -3px;
     position: absolute;
     text-align: left;
     width: 30px;
 }
-
 
 h2 {
     font-size: 200%;
@@ -564,6 +1081,7 @@ p {
     padding-right: 15%;
 }
 
+
 table {
     font-size: 180%;
     margin: auto;
@@ -572,30 +1090,90 @@ table {
 td {
     padding: 10px 34px 25px 35px;
 }
-
 }
+
+
 
 
 @media only screen and (min-width: 1025px) {
-/*#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
-    margin-left: 40%;
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 2600px;
 }
 
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
+/* white background */
+#aktuelles, #alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 2600px;
+}
+
+/* Underlay für Kontaktelinks */
+#h {
+    color:#FFFFFF;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#f {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#g {
+    color:#075687;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+#i {
+    color:#075687;
+    font-size: 220%;
+    cursor: pointer;
+}
+
+#i , #g span {
+    font-size: 100%;
+}
+
+.subnavwhite {
+    width: 100%;
+    height: 2600px;
+}
+
+.subnavblue {
+    width: 100%;
+    height: 2600px;
+}
+
+.fadebuttonblue {
+    background-color: #336699;
+    border-radius: 13px;
     border-color: #336699;
-    margin-left: 40%;
-}*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fadebuttonwhite {
+    background-color: #F2F2FF;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+}
+
+.scrollicon {
+    margin-left: 47%;
+    margin-right: auto;
+    margin-top:10%;
+    padding-bottom: 100px;
+    float: left;
+    cursor: pointer;
+}
 
 .scs {
     margin-left: 43%;
@@ -618,13 +1196,20 @@ td {
     width: 100%;
 }
 
+iframe {
+    height: 35%;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a:link {
     color: #FFFFFF;
     list-style-type: none;
     padding: 2%;
     text-align: center;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 h1 {
@@ -633,26 +1218,29 @@ h1 {
     text-align: center;
 }
 
+li {
+    display: inline;
+    padding-left: 12px;
+    font-size: 140%;
+}
+
 nav {
     background-color: #000000;
     font-size: 140%;
-    height: 32px;
-    left: 0;
-    padding: 3% 7% 2% 13%;
+    height: 60px;
+    padding: 1% 0% 3% 17%;
     position: fixed;
-    top: 0;
     width: 100%;
 }
 
 nav img {
     height: 30px;
-    margin-left: -280px;
+    margin-left: -257px;
     margin-top: -3px;
     position: absolute;
     text-align: left;
     width: 30px;
 }
-
 
 h2 {
     font-size: 200%;
@@ -674,7 +1262,6 @@ table {
 td {
     padding: 10px 34px 25px 35px;
 }
-
 }
 
 
@@ -750,7 +1337,15 @@ td {
     margin-left: auto;
     margin-right: auto;
     border-radius: 13px;
+}
 
+.scrollicon {
+    margin-left: 48%;
+    margin-right: auto;
+    margin-top:10%;
+    padding-bottom: 100px;
+    float: left;
+    cursor: pointer;
 }
 
 .scs {
@@ -772,22 +1367,6 @@ td {
 .foot {
     font-size: 60%;
     width: 100%;
-}
-
-ul.diashow {
-    margin:0px auto;
-    width:600px; /* Breite der Diashow */
-    height:250px; /* Höhe der Diashow */
-    overflow:hidden;
-    padding:0px;
-}
-ul.diashow > li {
-    padding:0px;
-    margin:-0px;
-    list-style:none;
-    width:100%;
-    display:none;
-    height:100%;
 }
 
 iframe {
@@ -812,26 +1391,32 @@ h1 {
     text-align: center;
 }
 
+li {
+    display: inline;
+    padding-left: 15px;
+    font-size: 176%;
+    width: left;
+}
+
 nav {
     background-color: #000000;
-    font-size: 140%;
-    height: 32px;
-    left: 0;
+    font-size: 134%;
+    height: 60px;
+    left: -12%;
     padding: 3% 7% 2% 13%;
     position: fixed;
-    top: 0;
+    top: -3%;
     width: 100%;
 }
 
 nav img {
     height: 30px;
-    margin-left: -280px;
+    margin-left: -257px;
     margin-top: -3px;
     position: absolute;
     text-align: left;
     width: 30px;
 }
-
 
 h2 {
     font-size: 200%;
@@ -853,5 +1438,4 @@ table {
 td {
     padding: 10px 34px 25px 35px;
 }
-
 }
