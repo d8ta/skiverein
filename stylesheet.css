@@ -1,3 +1,4 @@
+@media only screen and (min-device-width: 0px) {
 /* Underlay für Kontaktelinks */
 #h {
     color:#FFFFFF;
@@ -40,16 +41,16 @@
     background-color: #336699;
     border-radius: 13px;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 37%;
     margin-right: auto;
 }
 
 .fadebuttonwhite {
     background-color: #F2F2FF;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 37%;
     margin-right: auto;
-    border-radius: 13px;
+    border-radius: 10px;
 }
 
 .noneunderline {
@@ -121,6 +122,11 @@
     width: 100%;
 }
 
+.backtomain {
+    margin-left: -500px;
+    margin-top: -5px;
+}
+
 body {
     background-color: #075687;
     color: #FFFFFF;
@@ -141,7 +147,7 @@ form p {
 }
 
 span {
-    font-size: 220%;
+    font-size: 120%;
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
@@ -217,12 +223,12 @@ nav {
 }
 
 nav img {
-    height: 18px;
-    margin-left: -165px;
-    margin-top: -2px;
+    height: 60px;
+    margin-left: 0px;
+    margin-top: 90px;
     position: absolute;
     text-align: left;
-    width: 18px;
+    width: 60px;
 }
 
 h2 {
@@ -261,7 +267,7 @@ th {
 
 
 /* small size */
-@media only screen and (min-width: 320px) {
+@media only screen and (min-device-width: 320px) {
 /*blue background-color*/
 #start #intro, #board, #foerderverein {
     background-color: #075687;
@@ -300,6 +306,11 @@ th {
 .foot {
     font-size: 60%;
     width: 100%;
+}
+
+.backtomain {
+    margin-left: -500px;
+    margin-top: -5px;
 }
 
 a:link {
@@ -349,7 +360,7 @@ nav {
 
 nav img {
     height: 18px;
-    margin-left: -165px;
+    margin-left: 0px;
     margin-top: -2px;
     position: absolute;
     text-align: left;
@@ -392,7 +403,7 @@ th {
 
 
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-device-width: 481px) {
 /*blue background-color*/
 #start #intro, #board, #foerderverein {
     background-color: #075687;
@@ -434,8 +445,8 @@ th {
     cursor: pointer;
 }
 
-#i , #g span {
-    font-size: 100%;
+#i #g span {
+    font-size: 220%;
 }
 
 .subnavwhite {
@@ -452,14 +463,14 @@ th {
     background-color: #336699;
     border-radius: 13px;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
 }
 
 .fadebuttonwhite {
     background-color: #F2F2FF;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
     border-radius: 13px;
 }
@@ -495,10 +506,15 @@ th {
     width: 100%;
 }
 
+.backtomain {
+    margin-left: -500px;
+    margin-top: -5px;
+}
+
 iframe {
     height: 35%;
     width: 80%;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
 }
 
@@ -536,12 +552,12 @@ nav {
 }
 
 nav img {
-    height: 30px;
-    margin-left: -240px;
-    margin-top: -3px;
+    height: 60px;
+    margin-left: 0px;
+    margin-top: 90px;
     position: absolute;
     text-align: left;
-    width: 30px;
+    width: 60px;
 }
 
 h2 {
@@ -607,7 +623,7 @@ td {
 }
 
 #i , #g span {
-    font-size: 100%;
+    font-size: 200%;
 }
 
 .subnavwhite {
@@ -624,14 +640,14 @@ td {
     background-color: #336699;
     border-radius: 13px;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
 }
 
 .fadebuttonwhite {
     background-color: #F2F2FF;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
     border-radius: 13px;
 }
@@ -665,6 +681,11 @@ td {
 .foot {
     font-size: 60%;
     width: 100%;
+}
+
+.backtomain {
+    margin-left: -500px;
+    margin-top: -5px;
 }
 
 iframe {
@@ -707,12 +728,11 @@ nav {
 }
 
 nav img {
-    height: 30px;
-    margin-left: -240px;
-    margin-top: -3px;
+    height: 60px;
+    margin-left: 0px;
+    margin-top: 113px;
     position: absolute;
-    text-align: left;
-    width: 30px;
+    width: 60px;
 }
 
 h2 {
@@ -779,7 +799,7 @@ td {
 }
 
 #i , #g span {
-    font-size: 100%;
+    font-size: 220%;
 }
 
 .subnavwhite {
@@ -796,14 +816,14 @@ td {
     background-color: #336699;
     border-radius: 13px;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
 }
 
 .fadebuttonwhite {
     background-color: #F2F2FF;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
     border-radius: 13px;
 }
@@ -839,10 +859,16 @@ td {
     width: 100%;
 }
 
+.backtomain {
+    margin-left: -55px;
+    margin-top: -9px;
+    font-size: 25px;
+}
+
 iframe {
     height: 35%;
     width: 80%;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
 }
 
@@ -880,8 +906,8 @@ nav {
 
 nav img {
     height: 30px;
-    margin-left: -240px;
-    margin-top: -3px;
+    margin-left: 0px;
+    margin-top: 26px;
     position: absolute;
     text-align: left;
     width: 30px;
@@ -963,7 +989,7 @@ li {
 }
 
 #i , #g span {
-    font-size: 100%;
+    font-size: 220%;
 }
 
 .subnavwhite {
@@ -980,14 +1006,14 @@ li {
     background-color: #336699;
     border-radius: 13px;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
 }
 
 .fadebuttonwhite {
     background-color: #F2F2FF;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
     border-radius: 13px;
 }
@@ -1022,10 +1048,15 @@ li {
     width: 100%;
 }
 
+.backtomain {
+    margin-left: -85px;
+    margin-top: 4px;
+}
+
 iframe {
     height: 35%;
     width: 60%;
-    margin-left: auto;
+    margin-left: 20%;
     margin-right: auto;
 }
 
@@ -1063,8 +1094,8 @@ nav {
 
 nav img {
     height: 30px;
-    margin-left: -240px;
-    margin-top: -3px;
+    margin-left: 0px;
+    margin-top: 24px;
     position: absolute;
     text-align: left;
     width: 30px;
@@ -1137,7 +1168,7 @@ td {
 }
 
 #i , #g span {
-    font-size: 100%;
+    font-size: 220%;
 }
 
 .subnavwhite {
@@ -1154,14 +1185,14 @@ td {
     background-color: #336699;
     border-radius: 13px;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
 }
 
 .fadebuttonwhite {
     background-color: #F2F2FF;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
     border-radius: 13px;
 }
@@ -1196,10 +1227,15 @@ td {
     width: 100%;
 }
 
+.backtomain {
+    margin-left: -100px;
+    margin-top: -5px;
+}
+
 iframe {
     height: 35%;
     width: 55%;
-    margin-left: auto;
+    margin-left: 20%;
     margin-right: auto;
 }
 
@@ -1235,8 +1271,8 @@ nav {
 
 nav img {
     height: 30px;
-    margin-left: -257px;
-    margin-top: -3px;
+    margin-left: 0px;
+    margin-top: 20px;
     position: absolute;
     text-align: left;
     width: 30px;
@@ -1284,6 +1320,29 @@ td {
     height: 2600px;
 }
 
+/*Slideshow für Bilder*/
+#skishow1 {
+    margin: 50px auto;
+    position: relative;
+    width: 400px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#skishow1 > img {
+    width: 200%;
+    height: 200%;
+}
+
 /* Underlay für Kontaktelinks */
 #h {
     color:#FFFFFF;
@@ -1310,7 +1369,17 @@ td {
 }
 
 #i , #g span {
-    font-size: 100%;
+    font-size: 220%;
+}
+
+./*news img {
+    width: 80%;
+    height: 30%;
+    padding-left: 10%
+}*/
+
+.news p {
+    text-align: left;
 }
 
 .subnavwhite {
@@ -1327,14 +1396,14 @@ td {
     background-color: #336699;
     border-radius: 13px;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
 }
 
 .fadebuttonwhite {
     background-color: #F2F2FF;
     border-color: #336699;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
     border-radius: 13px;
 }
@@ -1369,10 +1438,22 @@ td {
     width: 100%;
 }
 
+.backtomain {
+    margin-left: -125px;
+    margin-top: -5px;
+}
+
+h3 {
+    padding-bottom: 5%;
+    padding-left: 15%;
+    text-align: left;
+    text-decoration: underline;
+}
+
 iframe {
     height: 35%;
     width: 55%;
-    margin-left: auto;
+    margin-left: 25%;
     margin-right: auto;
 }
 
@@ -1411,8 +1492,8 @@ nav {
 
 nav img {
     height: 30px;
-    margin-left: -257px;
-    margin-top: -3px;
+    margin-left: 0px;
+    margin-top: 20px;
     position: absolute;
     text-align: left;
     width: 30px;
