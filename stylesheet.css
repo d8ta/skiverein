@@ -5,14 +5,17 @@
 /* Textlinks für Kontakte */
 #h {
     color:#FFFFFF;
+    cursor: pointer;
 }
 
 #f {
     color:#075687;
+    cursor: pointer;
 }
 
 #g {
     color:#075687;
+    cursor: pointer;
 }
 
 /* blue background */
@@ -90,9 +93,9 @@ span {
 
 #firstScrolle, #secondScrolle, #thirdScrolle, #forthScrolle, #fifthScrolle, #sixthScrolle a:link {
 	text-align: center;
-	padding: 40px;
+	padding: 100px;
     text-decoration:none;
-
+    cursor: pointer;
 }
 
 .whiteback {
@@ -108,16 +111,19 @@ span {
 .subnavwhite a:link {
 	color: #075687;
 	text-decoration: none;
+    cursor: pointer;
 }
 
 .subnavwhite a:visited {
 	color: #075687;
 	text-decoration: none;
+    cursor: pointer;
 }
 
 .subnavwhite a:hover {
 	color: #075687;
 	text-decoration: none;
+    cursor: pointer;
 }
 
 .scrollicon {
@@ -129,28 +135,47 @@ span {
 
 li a:link {
     padding: 0%;
+    cursor: pointer;
 }
 
 /* small size */
 @media only screen and (min-width: 0px) {
-
-/*#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:300px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
+#skishow1 {
+    margin-top: 80px;
+    margin-left: 0%;
+    position: relative;
+    width: 284px;
+    height: 194px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:300px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #336699;
-}*/
+#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#skishow1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: 40px;
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 40%;
+    margin-right: auto;
+}
 
 body {
 	background-color: #075687;
@@ -170,16 +195,19 @@ a:link {
     padding: 0 5% 1% 1%;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
 	color: #FFFFFF;
 	text-decoration: none;
+    cursor: pointer;
 }
 
 h1 {
@@ -268,26 +296,42 @@ th {
 
 /* medium size */
 @media only screen and (min-width: 640px) {
-/*
-#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:300px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
-    margin-left: 30%;
+#skishow1 {
+    margin-top: 80px;
+    margin-left: 15%;
+    position: relative;
+    width: 390px;
+    height: 260px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:300px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #336699;
-    margin-left: 30%;
-}*/
+#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#skishow1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: 20px;
+    /*margin-top: 40px;*/
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 40%;
+    margin-right: auto;
+}
 
 a:link {
     color: #FFFFFF;
@@ -295,6 +339,7 @@ a:link {
     padding: 0% 10% -1% 10%;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
 }
 
 h1 {
@@ -367,29 +412,42 @@ th {
 
 /* big size */
 @media only screen and (min-width: 1024px) {
-
-/*#extrabutton {
-    padding:5px 10px;
-    background:#F2F2FF;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #F2F2FF;
-    margin-left: 40%;
+#skishow1 {
+    margin-top: 80px;
+    margin-left: 15%;
+    position: relative;
+    width: 390px;
+    height: 260px;
+    float: left;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-#extrabuttonblue {
-    padding:5px 10px;
-    background:#336699;
-    width:350px;
-    border-radius:15px;
-    border-style: none;
-    border-color: #336699;
-    margin-left: 40%;
-}*/
+#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
 
+#skishow1 img {
+    width: 100%;
+    height: 100%;
+}
 
-body {
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: 160px;
+    margin-left: 480px;
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+    margin-left: -100px;
+    margin-right: auto;
 }
 
 .scs {
@@ -405,6 +463,7 @@ a:link {
 	text-align: center;
 	text-decoration: none;
 	font-size: 120%;
+    cursor: pointer;
 }
 
 h1 {

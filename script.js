@@ -68,6 +68,16 @@ $(document).ready(function() {
           e.preventDefault();
                 $("#g2").slideToggle('slow');
           e.preventDefault();
-
       });
+
+      // Slideshow für Bilder in Ski und Snowboard
+      $("#skishow1 > div:gt(0)").hide();
+        setInterval(function() {
+          $('#skishow1 > div:first')
+            .fadeOut(2000)
+            .next()
+            .fadeIn(2000)
+            .end()
+            .appendTo('#skishow1');
+        },  3000);
 });
