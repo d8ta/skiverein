@@ -28,6 +28,43 @@
     height: 2600px;
 }
 
+#skishow1 {
+    margin-top: 80px;
+    margin-left: 15%;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+}
+
+#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#skishow1 > img {
+    width: 50%;
+    height: 50%;
+}
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: 40px;
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
 .scrollicon {
     margin-left: 40%;
     margin-right: auto;
@@ -284,6 +321,44 @@ th {
     height: 2600px;
 }
 
+#skishow1 {
+    margin-top: 80px;
+    margin-left: 15%;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+}
+
+/*#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}*/
+
+#skishow1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: 40px;
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
 /* Logo des SC Schellenberg */
 .scs {
     margin-left: 40%;
@@ -447,6 +522,43 @@ th {
 
 #i #g span {
     font-size: 220%;
+}
+
+#skishow1 {
+    margin-top: 80px;
+    margin-left: 2%;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0);
+}
+
+#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#skishow1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: 40px;
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 40%;
+    margin-right: auto;
 }
 
 .subnavwhite {
@@ -626,6 +738,41 @@ td {
     font-size: 200%;
 }
 
+#skishow1 {
+    margin-top: 80px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#skishow1 > div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#skishow1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: -1100px;
+    /*margin-top: 40px;*/
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
 .subnavwhite {
     width: 100%;
     height: 2600px;
@@ -800,6 +947,44 @@ td {
 
 #i , #g span {
     font-size: 220%;
+}
+
+#skishow1 {
+    margin-top: 80px;
+    margin-left: 9%;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+}
+
+#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#skishow1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: 40px;
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 40%;
+    margin-right: auto;
 }
 
 .subnavwhite {
@@ -992,6 +1177,44 @@ li {
     font-size: 220%;
 }
 
+#skishow1 {
+    margin-top: 80px;
+    margin-left: 17%;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+}
+
+#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#skishow1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: 40px;
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
 .subnavwhite {
     width: 100%;
     height: 2600px;
@@ -1171,6 +1394,41 @@ td {
     font-size: 220%;
 }
 
+#skishow1 {
+    margin: 50px;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    float: left;
+}
+
+#skishow1 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#skishow1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.news p {
+    text-align: left;
+    font-size: 140%;
+    margin-top: 120px;
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
+}
+
 .subnavwhite {
     width: 100%;
     height: 2600px;
@@ -1322,12 +1580,13 @@ td {
 
 /*Slideshow für Bilder*/
 #skishow1 {
-    margin: 50px auto;
+    margin: 50px;
     position: relative;
-    width: 400px;
-    height: 280px;
+    width: 600px;
+    height: 400px;
     padding: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    float: left;
 }
 
 #skishow1 > div {
@@ -1338,9 +1597,9 @@ td {
     bottom: 10px;
 }
 
-#skishow1 > img {
-    width: 200%;
-    height: 200%;
+#skishow1 img {
+    width: 100%;
+    height: 100%;
 }
 
 /* Underlay für Kontaktelinks */
@@ -1372,14 +1631,16 @@ td {
     font-size: 220%;
 }
 
-./*news img {
-    width: 80%;
-    height: 30%;
-    padding-left: 10%
-}*/
-
 .news p {
     text-align: left;
+    font-size: 140%;
+    margin-top: 120px;
+}
+
+.news a:link {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 140%;
 }
 
 .subnavwhite {
@@ -1443,12 +1704,12 @@ td {
     margin-top: -5px;
 }
 
-h3 {
+/*h3 {
     padding-bottom: 5%;
     padding-left: 15%;
     text-align: left;
     text-decoration: underline;
-}
+}*/
 
 iframe {
     height: 35%;
