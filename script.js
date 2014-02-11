@@ -59,7 +59,7 @@ $(document).ready(function() {
           e.preventDefault();
       });
 
-      var par = $('p');
+      var par = $('g');
       $("#g1").hide();
 
       $('#g').click(function(e) {
@@ -78,13 +78,12 @@ $(document).ready(function() {
 
       // Slideshow für Bilder in Ski und Snowboard
       $("#skishow1 > div:gt(0)").hide();
-
-setInterval(function() {
-  $('#skishow1 > div:first')
-    .fadeOut(2000)
-    .next()
-    .fadeIn(2000)
-    .end()
-    .appendTo('#skishow1');
-},  3000);
+        setInterval(function() {
+          $('#skishow1 > div:first')
+            .fadeOut(2000)
+            .next()
+            .fadeIn(2000)
+            .end()
+            .appendTo('#skishow1');
+        },  3000);
 });
