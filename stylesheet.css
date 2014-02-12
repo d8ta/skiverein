@@ -219,6 +219,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
+    opacity: 0.5;
 }
 
 a:link {
@@ -264,6 +265,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
+    opacity: 0.5;
 }
 
 nav img {
@@ -445,6 +447,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
+    opacity: 0.5;
 }
 
 nav img {
@@ -889,6 +892,7 @@ nav {
     height: 235px;
     position: fixed;
     width: 100%;
+    opacity: 0.5;
 }
 
 nav img {
@@ -1104,6 +1108,7 @@ nav {
     padding: 0% 0% 2% 5%;
     position: fixed;
     width: 100%;
+    opacity: 0.5;
 }
 
 nav img {
@@ -1330,6 +1335,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    opacity: 0.5;
 }
 
 nav img {
@@ -1542,6 +1548,7 @@ nav {
     padding: 1% 0% 3% 17%;
     position: fixed;
     width: 100%;
+    opacity: 0.5;
 }
 
 nav img {
@@ -1767,6 +1774,7 @@ nav {
     position: fixed;
     top: -3%;
     width: 100%;
+    opacity: 0.5;
 }
 
 nav img {
