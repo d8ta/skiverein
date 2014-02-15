@@ -3,6 +3,8 @@ body {
     background-color: #075687;
     color: #FFFFFF;
     font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-left: 0px;
 }
 
 .bluewords {
@@ -19,6 +21,10 @@ body {
 
 .showall {
     display: inline;
+}
+
+.whiteback {
+    background-color: #ffffff;
 }
 
 
@@ -148,7 +154,7 @@ li {
 
 nav {
     background-color: #000000;
-    height: 100px;
+    height: 60px;
     left: 0;
     padding: 0% 12% 10% 0%;
     position: fixed;
@@ -282,6 +288,7 @@ th {
     text-align: left;
     font-size: 140%;
     margin-top: 40px;
+    width: 80%;
 }
 
 .news a:link {
@@ -304,10 +311,11 @@ th {
 
 .fadebuttonblue {
     background-color: #336699;
-    border-radius: 15px;
     border-color: #336699;
-    margin-left: 20%;
-    margin-right: 20%;
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 15px;
     text-align: center;
 }
 
@@ -331,8 +339,8 @@ th {
 }
 
 .zeichen {
-    width: 30%;
-    padding-left: 10%;
+    padding-left: 0%;
+    width: 15%;
 }
 
 .indoc > img {
@@ -379,7 +387,7 @@ a:link > .underline {
 }
 
 a:link > .bluewords {
-    color: #FFFFFF;
+    color: #075687;
     list-style-type: none;
     padding: 2%;
     text-align: center;
@@ -412,29 +420,35 @@ h1 {
 li {
     font-size: 150%;
     list-style-type: none;
-    text-align: left;
+    text-align: center;
     margin-top: 15px;
     padding-bottom: 20px;
 }
 
 .border {
-border-bottom: solid #ffffff;
+    border-bottom: solid #075687;
+}
+
+.whiteborder {
+    border-bottom: solid #ffffff;
 }
 
 .blueborder {
-    border-bottom: solid #000000;
-
+    border-bottom: solid #075687;
 }
 
+ul {
+    margin-left: -10%;
+}
 
 li > img {
-    width: 60%%;
+    width: 50%;
 }
 
 nav {
     background-color: #000000;
     font-size: 100%;
-    height: 100px;
+    height: 60px;
     opacity: 0.5;
     margin-left: -8%;
     display: inline-table;
@@ -445,7 +459,7 @@ nav img {
     height: 35px;
     width: 35px;
     margin-left: 15%;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 h2 {
@@ -643,7 +657,7 @@ li {
 nav {
     background-color: #000000;
     font-size: 230%;
-    height: 235px;
+    height: 60px;
     position: fixed;
     width: 100%;
     opacity: 0.5;
@@ -858,7 +872,7 @@ li {
 nav {
     background-color: #000000;
     font-size: 195%;
-    height: 80px;
+    height: 60px;
     padding: 0% 0% 2% 5%;
     position: fixed;
     width: 100%;
@@ -1083,7 +1097,7 @@ li {
 nav {
     background-color: #000000;
     font-size: 120%;
-    height: 70px;
+    height: 60px;
     left: -13%;
     padding: 3% 7% 2% 13%;
     position: fixed;
