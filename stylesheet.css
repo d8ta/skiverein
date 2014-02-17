@@ -395,6 +395,13 @@ a:link > .bluewords {
     font-size: 160%;
 }
 
+#f1, #f2 {
+/*    color: #075687;
+*/    text-align: left;
+    font-size: 60%;
+    margin-top: -30px;
+}
+
 a:link > .bluewords_small {
     color: #075687;
     text-decoration: underline;
