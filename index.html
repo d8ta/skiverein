@@ -27,7 +27,15 @@
 				<li><a href="#termine" id="fifth">Termine</a></li>
 				<li><a href="#foerderverein" id="sixth">Förderverein</a></li>
 			</ul>
+			<!-- button um navbar zu verstecken -->
+			<img id="hide" src="zeichen/arrow-left_white64.png" alt="Navigationsleiste öffnen">
 		</nav>
+		<!-- button um navbar zu zeigen -->
+
+			<div id="navbarslider">
+				<img id="show" src="zeichen/arrow-down_white64.png" alt="Navigationsleiste öffnen">
+			</div>
+
 
 		<section id="start" class="subnavblue">
 			<h2> Willkommen beim Skiclub Schellenberg e.V. </h2>
@@ -69,22 +77,23 @@
 				<div><img src="bilder/ski/ski26.JPG" alt="Testbild"></div>
 				<div><img src="bilder/ski/ski27.JPG" alt="Testbild"></div>
 			</div>
-			<div class="news blueborder">
-				<h2>Sparkassencup Paralleslalom 02.02.2014</h2>
+			<div>
+				<h2>Aktuelle Ergebnisse:</h2>
+				<h3>Sparkassencup Paralleslalom 02.02.2014</h3>
 							<p>Am 02. Februar 2014 fand am Rossfeld der Parallelslalom der
-								Altersklassen U8, U10 und U12 statt.<a href="dokumente/SparkassenCupRennenParallelslalom.pdf" target="_blank"><span class="bluewords_small"> Ergebnisliste</span></a></p>
+								Altersklassen U8, U10 und U12 statt.<a href="dokumente/SparkassenCupRennenParallelslalom.pdf" target="_blank"><span class="bluewords_small underline"> Ergebnisliste</span></a></p>
 			</div>
 
-			<div class="news blueborder">
-				<h2>Ziener Kids Cross Cup 26.01.2014</h2>
+			<div>
+				<h3>Ziener Kids Cross Cup 26.01.2014</h3>
 							<p>Der Vielseitigkeits und Slalom der Altersklasse U12 wurde am
-								Benzecklift in Reit im Winkl durchgeführt.<a href="dokumente/ZienerKidsCrossCup26012014.pdf" target="_blank"><span class="bluewords_small"> Ergebnisliste</span></a></p>
+								Benzecklift in Reit im Winkl durchgeführt.<a href="dokumente/ZienerKidsCrossCup26012014.pdf" target="_blank"><span class="bluewords_small underline"> Ergebnisliste</span></a></p>
 			</div>
 
-						<div class="news">
-				<h2>Vielseitigkeitslauf 18.01.2014</h2>
+						<div>
+				<h3>Vielseitigkeitslauf 18.01.2014</h3>
 							<p>Der Vielseitigkeitslauf der Altersklasse U8, U10 sowie U11 wurde am
-								Benzecklift in Reit im Winkl durchgeführt.<a href="dokumente/Ergebnisliste_Sparkassencup2014_1+2Rennen.pdf" target="_blank"><span class="bluewords_small"> Ergebnisliste</span></a></p>
+								Benzecklift in Reit im Winkl durchgeführt.<a href="dokumente/Ergebnisliste_Sparkassencup2014_1+2Rennen.pdf" target="_blank"><span class="bluewords_small underline"> Ergebnisliste</span></a></p>
 			</div>
 
 			<img class="scrollicon" id="forthScrolle" src="zeichen/arrow-down_blue64.png" alt="Nach unten scrollen">
@@ -106,8 +115,20 @@
 		</section>
 
 
-		<section id="termin" class="subnavwhite">
+		<section id="termin" class="subnavwhit">
 			<h1>Terminkalender</h1>
+
+			<!-- mobile ansicht -->
+			<h2>
+				<a href="http://www.rennmeldung.de/cgi-bin/rennkalender.cgi" name="Rennmeldunge.de" target="blank"><span class="bluewords">Rennkalender.de</span></a>
+			</h2>
+			<h2>
+				<a href="http://root.asv-ski.de/web-9/sv-chiemgau/content.php?folder=38" name="sv-chiemgau.de" target="blank"><span class="bluewords">SC-Chiemgau.de</span></a>
+			</h2>
+
+
+
+			<!-- iframe wird in der mobilansicht ausgeblendet -->
 			<h2 id="g">Rennmeldungen</h2>
 						<iframe id="g1" src="http://www.rennmeldung.de/cgi-bin/rennkalender.cgi" name="Rennmeldunge.de"></iframe>
 			<h2 id="i">Skiverband Chiemgau</h2>

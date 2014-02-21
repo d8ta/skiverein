@@ -75,6 +75,13 @@ $(document).ready(function() {
           e.preventDefault();
       });
 
+      // Navigatonsslider für Mobilansicht
+  $("#hide").click(function(){
+    $("nav").hide();
+  });
+  $("#show").click(function(){
+    $("nav").show();
+  });
 
       // Slideshow für Bilder in Ski und Snowboard
       $("#skishow1 > div:gt(0)").hide();
