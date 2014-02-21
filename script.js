@@ -76,6 +76,9 @@ $(document).ready(function() {
       });
 
       // Navigatonsslider für Mobilansicht
+      var par = $('#hide');
+      $("nav").hide();
+
   $("#hide").click(function(){
     $("nav").hide();
   });
