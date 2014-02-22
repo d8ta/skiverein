@@ -96,4 +96,24 @@ $(document).ready(function() {
             .end()
             .appendTo('#skishow1');
         },  3000);
+
+      $("#skishow2 > div:gt(0)").hide();
+        setInterval(function() {
+          $('#skishow2 > div:first')
+            .fadeOut(2000)
+            .next()
+            .fadeIn(2000)
+            .end()
+            .appendTo('#skishow2');
+        },  3000);
+
+      $("#skishow3 > div:gt(0)").hide();
+        setInterval(function() {
+          $('#skishow3 > div:first')
+            .fadeOut(2000)
+            .next()
+            .fadeIn(2000)
+            .end()
+            .appendTo('#skishow3');
+        },  3000);
 });

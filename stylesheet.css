@@ -1,5 +1,5 @@
+/*Für Mobilansicht*/
 @media only screen and (min-device-width: 320px) {
-
 body {
     background-color: #075687;
     color: #FFFFFF;
@@ -167,6 +167,7 @@ h2 .fadebuttonwhite {
     text-align: center;
     width: 200px;
     display: block;
+    cursor: pointer;
 }
 
 
@@ -182,7 +183,6 @@ h2 .fadebuttonwhite {
 
 .scrollicon {
     width: 40px;
-
     margin-bottom: 100px;
     margin-top: 100px;
     cursor: pointer;
@@ -191,7 +191,6 @@ h2 .fadebuttonwhite {
     position: relative;
     display: block;
 }
-
 
 .pics > img {
     width: 50%;
@@ -447,5 +446,264 @@ background-color: #34495E;
     height: 100%;
     display: none;
 }
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Für Tablets*/
+@media only screen and (min-device-width: 768px) {
+.indoc > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+}
+
+.whiteback {
+    background-color: #ffffff;
+    margin-left: -13%;
+    height: 1200px;
+}
+
+/*blue background-color*/
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 1000px;
+}
+
+/* white background */
+#aktuelles {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 1000px;
+}
+
+/* white background für alpin und termine  (slideshow & iFrame) */
+#alpin, #termin {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 1800px;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    width: 50%;
+}
+
+h1 {
+    font-size: 500%;
+    padding-top: 20%;
+    position: relative;
+    text-align: center;
+}
+
+
+.text {
+    display: block;
+    font-size: 140%;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+
+h3 {
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    text-align: left;
+    width: 50%;
+}
+
+nav li {
+    display: inline;
+    font-size: 150%;
+    list-style-type: none;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-top: 13px;
+    text-align: center;
+}
+
+li {
+    display: block;
+    font-size: 150%;
+    list-style-type: none;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-top: 13px;
+    text-align: center;
+}
+
+nav {
+    background-color: #34495E;
+    height: 85px;
+    left: 0;
+    padding: 0 0 45px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+nav ul {
+    display: block;
+    font-size: 127%;
+    padding-left: 0;
+    padding-top: 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav img {
+    height: 40%;
+    margin-left: 25px;
+    margin-top: 22px;
+    position: absolute;
+    text-align: left;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#hide {
+    background-color: #34495E;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    margin-left: 50%;
+    margin-right: auto;
+    position: fixed;
+    top: 82px;
+    width: 30px;
+}
+
+#show {
+    width: 30px;
+    margin-left: 50%;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    z-index: 49;
+    height: 25px;
+    background-color: #34495E;
+}
+
+.skishow_rechts {
+    text-align: left;
+    margin-left: 390px;
+}
+
+.skishow_links {
+    text-align: left;
+    margin-left: -250px;
+}
+
+/* Slideshow für Bilder */
+#skishow3, #skishow1 {
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    width: 370px;
+    height: 260px;
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.4);
+    display: block;
+}
+
+#skishow3 div, #skishow1 div {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+}
+
+#skishow3 img, #skishow1 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+
+/*rechtszentriert*/
+#skishow2 {
+    margin-top: 80px;
+    margin-left: 45%;
+    position: relative;
+    width: 370px;
+    height: 260px;
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.4);
+    display: block;
+}
+
+#skishow2 div {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+}
+
+#skishow2 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.skishowmobil {
+    display: none;
+}
+
+iframe {
+    height: 40%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+
+}
+
+#g, #i {
+    display: block;
+}
 }
