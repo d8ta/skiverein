@@ -1,5 +1,5 @@
 /*Für Mobilansicht*/
-@media only screen and (min-device-width: 320px) {
+@media only screen and (min-width: 320px) {
 body {
     background-color: #075687;
     color: #FFFFFF;
@@ -142,6 +142,8 @@ table {
     text-align: center;
     width: 200px;
     display: block;
+    cursor: pointer;
+    color: #ffffff;
 }
 
 h2 .fadebuttonblue {
@@ -192,9 +194,9 @@ h2 .fadebuttonwhite {
     display: block;
 }
 
-.pics > img {
+/*.pics > img {
     width: 50%;
-}
+}*/
 
 .bluewords {
     color: #075687;
@@ -446,14 +448,67 @@ background-color: #34495E;
     height: 100%;
     display: none;
 }
+
+/* Slideshow für Bilder */
+#skishow3, #skishow1 {
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    width: 370px;
+    height: 260px;
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.4);
+    display: none;
 }
 
+#skishow3 div, #skishow1 div {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+}
 
+#skishow3 img, #skishow1 img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-radius: 5px;
+}
 
+/*rechtszentriert*/
+#skishow2 {
+    margin-top: 80px;
+    margin-left: 45%;
+    position: relative;
+    width: 370px;
+    height: 260px;
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.4);
+    display: none;
+}
 
+#skishow2 div {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+}
 
+#skishow2 img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-radius: 5px;
+}
 
-
+.skishowmobil {
+    display: block;
+}
+}
 
 
 
@@ -469,7 +524,7 @@ background-color: #34495E;
 
 
 /*Für Tablets*/
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
 .indoc > img {
     display: block;
     margin-left: auto;
@@ -480,7 +535,25 @@ background-color: #34495E;
 .whiteback {
     background-color: #ffffff;
     margin-left: -13%;
-    height: 1200px;
+    height: 1400px;
+}
+
+.fadebuttonwhite {
+    background-color: #336699;
+    color: #ffffff;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 150px;
+    display: block;
+}
+
+.intext_blue {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /*blue background-color*/
@@ -693,17 +766,50 @@ a:link {
     display: none;
 }
 
+.zeichen {
+    width: 20%;
+}
+
 iframe {
     height: 40%;
-    width: 80%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     display: block;
     border-radius: 5px;
+}
 
+table {
+    font-size: 165%;
+    margin-left: 15%;
+    margin-right: auto;
+    width: 83%;
+    display: block;
+}
+
+table img {
+    width: 40%;
+    margin-top: 5px;
+}
+
+td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+}
+
+td p {
+    text-align: center;
 }
 
 #g, #i {
     display: block;
 }
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
 }
