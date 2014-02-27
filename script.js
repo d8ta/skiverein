@@ -1,4 +1,12 @@
 $(document).ready(function() {
+
+  // pinguin
+  $("#teaser").click(function() {
+    $('html, body').animate({
+      scrollTop : $("#aktuelles").offset().top
+    }, 2000);
+  });
+
 	// scrolling from to the intro location
 	$("#first, #firstScrolle").click(function() {
 		$('html, body').animate({

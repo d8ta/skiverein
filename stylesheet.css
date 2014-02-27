@@ -1,5 +1,15 @@
 /*Für Mobilansicht*/
 @media only screen and (min-width: 320px) {
+
+#teaser {
+position: fixed;
+width: 140px;
+margin-left: 0px;
+bottom: 0px;
+cursor: pointer;
+z-index: 1;
+}
+
 body {
     background-color: #075687;
     color: #FFFFFF;
@@ -13,6 +23,7 @@ body {
 ul {
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
     display: block;
 }
 
@@ -114,6 +125,10 @@ table {
    display: none;
 }
 
+span {
+    color: #34495E;
+}
+
 .grow {
   display: inline-block;
   -webkit-transition-duration: 0.3s;
@@ -194,13 +209,15 @@ h2 .fadebuttonwhite {
     display: block;
 }
 
-/*.pics > img {
+.pics > img {
     width: 50%;
-}*/
+}
 
 .bluewords {
     color: #075687;
 }
+
+
 
 .bluewords_small {
    color: #075687;
@@ -217,7 +234,7 @@ h2 .fadebuttonwhite {
 .whiteback {
     background-color: #ffffff;
     margin-left: -13%;
-    height: 800px;
+    height: 1000px;
 }
 
 .news p {
@@ -256,6 +273,7 @@ h2 .fadebuttonwhite {
 
 .underline {
     text-decoration: underline;
+    color: #075687;
 }
 
 .border {
@@ -270,8 +288,12 @@ h2 .fadebuttonwhite {
 }
 
 .foot {
-    font-size: 60%;
+    font-size: 80%;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #ffffff;
 }
 
 .backtomain {
@@ -342,20 +364,23 @@ background-color: #34495E;
 }
 
 #f1 {
-    font-size: 20px;
-    margin-bottom: -5%;
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    text-align: left;
+    text-align: center;
+    width: 100%;
 }
 
 #f2 {
-    font-size: 20px;
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    text-align: left;
+    text-align: center;
+    width: 100%;
 }
 
 #h {
@@ -364,22 +389,34 @@ background-color: #34495E;
 }
 
 #h1 {
-    font-size: 20px;
-    margin-bottom: -5%;
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    text-align: left;
+    text-align: center;
+    width: 100%;
 }
 
 #h2 {
-    font-size: 20px;
-    margin-bottom: -5%;
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    text-align: left;
+    text-align: center;
+    width: 100%;
 }
+
+
+/*#h1 {
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: -20%;
+    margin-left: 25%;
+    margin-right: auto;
+    text-align: left;
+}*/
 
 #g, #i {
     display: none;
@@ -596,12 +633,21 @@ h1 {
     text-align: center;
 }
 
+h2 {
+display: block;
+font-size: 240%;
+margin-right: auto;
+text-align: center;
+text-decoration: none;
+width: 100%;
+}
+
 
 .text {
     display: block;
     font-size: 140%;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     text-decoration: underline;
     width: 100%;
@@ -767,13 +813,13 @@ a:link {
 }
 
 .zeichen {
-    width: 20%;
+    width: 50px;
 }
 
 iframe {
-    height: 40%;
-    width: 50%;
-    margin-left: auto;
+    height: 400px;
+    width: 650px;
+    margin-left: 5%;
     margin-right: auto;
     display: block;
     border-radius: 5px;
@@ -788,14 +834,12 @@ table {
 }
 
 table img {
-    width: 40%;
-    margin-top: 5px;
+width: 100px;
+margin-top: 5px;
 }
 
 td {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 40px;
+padding: 15px 40px 15px 25px;
 }
 
 td p {
@@ -805,11 +849,255 @@ td p {
 #g, #i {
     display: block;
 }
+
+/*#f1 {
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: -20%;
+    margin-left: 50%;
+    margin-right: auto;
+    text-align: left;
+}
+
+#f2 {
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: -20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}*/
+
+#h1 {
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#h2 {
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#teaser {
+position: fixed;
+width: 140px;
+margin-left: 0px;
+bottom: 0px;
+cursor: pointer;
+z-index: 1;
+}
+
 }
 
 
 
 
 @media only screen and (min-width: 1024px) {
+
+nav {
+    background-color: #34495E;
+    height: 30px;
+    left: 0;
+    padding: 0 0 45px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+nav ul {
+    display: inline;
+    font-size: 160%;
+    padding-left: 0;
+    padding-top: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#show {
+width: 30px;
+margin-left: 49%;
+margin-right: auto;
+display: block;
+cursor: pointer;
+position: fixed;
+z-index: 49;
+height: 25px;
+background-color: #34495E;
+}
+
+#hide {
+    background-color: #34495E;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    margin-left: 49%;
+    margin-right: auto;
+    position: fixed;
+    top: 23px;
+    width: 30px;
+}
+
+table {
+font-size: 165%;
+margin-left: auto;
+margin-right: auto;
+width: 35%;
+display: block;
+}
+
+h1 {
+font-size: 800%;
+padding-top: 20%;
+position: relative;
+text-align: center;
+}
+
+h2 {
+display: block;
+font-size: 340%;
+margin-right: auto;
+text-align: center;
+text-decoration: none;
+width: 100%;
+}
+
+h2 .fadebuttonblue {
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+text-align: center;
+width: 500px;
+display: block;
+}
+
+#f1 {
+color: #075687;
+font-size: 200%;
+margin-bottom: 0%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+width: 100%;
+}
+
+#f2 {
+color: #075687;
+font-size: 200%;
+margin-bottom: 0%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+width: 100%;
+}
+
+.text {
+display: block;
+font-size: 175%;
+margin-right: auto;
+margin-top: 50px;
+text-align: center;
+text-decoration: underline;
+width: 100%;
+}
+
+p {
+margin-left: auto;
+margin-right: auto;
+padding-left: 10px;
+padding-right: 10px;
+text-align: justify;
+width: 50%;
+font-size: 120%;
+}
+
+#skishow3, #skishow1 {
+margin-top: 80px;
+margin-left: 20%;
+position: relative;
+width: 370px;
+height: 260px;
+padding: 10px;
+box-shadow: 0 0 0px rgba(0,0,0,0.4);
+display: block;
+}
+
+.skishow_rechts {
+text-align: left;
+margin-left: 490px;
+}
+
+#alpin, #termin {
+background-color: #ffffff;
+color: #075687;
+width: 100%;
+height: 2300px;
+}
+
+nav ul {
+display: inline;
+font-size: 160%;
+padding-left: 0;
+padding-top: 0;
+text-align: center;
+width: 100%;
+margin-left: 10%;
+margin-right: auto;
+}
+
+h2 .fadebuttonblue {
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+text-align: center;
+width: 360px;
+display: block;
+}
+
+.fadebuttonblue {
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+text-align: center;
+width: 360px;
+display: block;
+cursor: pointer;
+color: #ffffff;
+}
+
+iframe {
+height: 400px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+border-radius: 5px;
+}
+
+#teaser {
+position: fixed;
+width: 140px;
+margin-left: 0px;
+bottom: 0px;
+cursor: pointer;
+z-index: 1;
+}
 
 }
