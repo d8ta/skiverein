@@ -2,17 +2,19 @@
 @media only screen and (min-width: 320px) {
 
 #teaser {
-position: fixed;
-width: 140px;
-margin-left: 0px;
-bottom: 0px;
-cursor: pointer;
-z-index: 1;
+    position: fixed;
+    width: 140px;
+    margin-left: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    z-index: 1;
 }
 
 body {
     background-color: #075687;
     color: #FFFFFF;
+    /*font-family: 'Hammersmith One', sans-serif;*/
+    /*font-family: 'Bree Serif', serif;*/
     font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
@@ -65,34 +67,29 @@ h3 {
 }
 
 li {
-    display: block;
-    font-size: 150%;
-    list-style-type: none;
-    padding-bottom: 15px;
-    padding-left: 0;
-    padding-top: 13px;
-    text-align: center;
+display: block;
+font-size: 150%;
+list-style-type: none;
+padding-top: 10px;
+text-align: left;
 }
 
 nav {
-    background-color: #34495E;
-    height: 122px;
-    left: 0;
-    padding: 0 0 45px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 50;
+background-color: #34495E;
+height: 289px;
+left: 0;
+/* padding: 0 0 45px; */
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 50;
 }
 
 nav ul {
-    display: table-cell;
-    padding-left: 10%;
-    padding-top: 0;
-    text-align: left;
-    width: 55%;
-    margin-left: auto;
-    margin-right: auto;
+display: block;
+width: 80%;
+margin-top: 60px;
+margin-left: -15px;
 }
 
 nav img {
@@ -423,38 +420,35 @@ background-color: #34495E;
 }
 
 #show {
-    width: 30px;
-    margin-left: 45%;
-    margin-right: auto;
-    display: block;
-    cursor: pointer;
-    position: fixed;
-    z-index: 49;
-    height: 25px;
-    background-color: #34495E;
+width: 45px;
+cursor: pointer;
+position: fixed;
+z-index: 49;
+height: 26px;
+background-color: #34495E;
+top: 15px;
+margin-left: 10px;
 }
 
 #hide {
-    background-color: #34495E;
-    cursor: pointer;
-    height: 25px;
-    margin-left: 45%;
-    margin-right: auto;
-    display: block;
-    position: fixed;
-    top: 120px;
-    width: 30px;
+width: 45px;
+cursor: pointer;
+position: fixed;
+z-index: 49;
+height: 26px;
+background-color: #34495E;
+top: -7px;
+margin-left: 10px;
 }
 
 #navbarslider {
 width: 100%;
-margin-left: 0%;
 top: 0%;
-height: 30px;
-float: left;
+height: 50px;
 position: fixed;
-z-index: 1;
+z-index: 51;
 background-color: #34495E;
+cursor: pointer;
 }
 
 
@@ -1099,5 +1093,4 @@ bottom: 0px;
 cursor: pointer;
 z-index: 1;
 }
-
 }

@@ -4,44 +4,44 @@ $(document).ready(function() {
   $("#teaser").click(function() {
     $('html, body').animate({
       scrollTop : $("#aktuelles").offset().top
-    }, 2000);
+    }, 1000);
   });
 
 	// scrolling from to the intro location
 	$("#first, #firstScrolle").click(function() {
 		$('html, body').animate({
 			scrollTop : $("#aktuelles").offset().top
-		}, 2000);
+		}, 1000);
 	});
 
 	$("#second, #secondScrolle").click(function() {
 		$('html, body').animate({
 			scrollTop : $("#intro").offset().top
-		}, 2000);
+		}, 1000);
 	});
 
 	$("#third, #thirdScrolle").click(function() {
 		$('html, body').animate({
 			scrollTop : $("#alpin").offset().top
-		}, 2000);
+		}, 1000);
 	});
 
 	$("#forth, #forthScrolle").click(function() {
 		$('html, body').animate({
 			scrollTop : $("#board").offset().top
-		}, 2000);
+		}, 1000);
  	});
 
 	$("#fifth, #fifthScrolle").click(function() {
 		$('html, body').animate({
 			scrollTop : $("#termin").offset().top
-		}, 2000);
+		}, 1000);
 	});
 
 	$("#sixth, #sixthScrolle").click(function() {
     	$('html, body').animate({
         	scrollTop: $("#foerderverein").offset().top
-    	}, 2000);
+    	}, 1000);
 	});
 
 	// togglefunction for the subnavigation
@@ -87,12 +87,13 @@ $(document).ready(function() {
       var par = $('#hide');
       $("nav").hide();
 
-  $("#hide").click(function(){
-    $("nav").hide();
-  });
-  $("#show").click(function(){
-    $("nav").show();
-  });
+        $("#hide").click(function(){
+          $("nav").slideToggle('slow');
+        });
+        $("#show").click(function(){
+          $("nav").slideToggle('slow');
+        });
+
 
       // Slideshow für Bilder in Ski und Snowboard
       $("#skishow1 > div:gt(0)").hide();
