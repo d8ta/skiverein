@@ -1,6 +1,10 @@
 /*Für Mobilansicht*/
 @media only screen and (min-width: 320px) {
 
+* {
+    box-sizing: border-box;
+}
+
 #teaser {
     position: fixed;
     width: 140px;
@@ -125,7 +129,7 @@ span {
 }
 
 .grow {
-  display: inline-block;
+  /*display: inline-block;*/
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: -webkit-transform;
