@@ -22,6 +22,7 @@ body {
     margin-right: auto;
     display: block;
     width: 100%;
+    height: 536px;
 }
 
 ul {
@@ -57,24 +58,25 @@ iframe {
 }
 
 h1 {
-    padding-top: 20%;
-    font-size: 275%;
-    text-align: center;
-    position: relative;
+padding-top: 80px;
+font-size: 275%;
+text-align: center;
+position: relative;
 }
 
 h3 {
-    padding-left: 20px;
-    padding-right: 20px;
+text-align: center;
 }
 
 li {
-display: block;
+/* display: block; */
 font-size: 150%;
 list-style-type: none;
 padding-top: 10px;
-text-align: left;
+text-align: center;
+padding-bottom: 20px;
 }
+
 
 nav {
 background-color: #34495E;
@@ -94,6 +96,16 @@ margin-top: 60px;
 margin-left: -15px;
 }
 
+nav li {
+/* display: block; */
+font-size: 150%;
+list-style-type: none;
+padding-top: 0px;
+text-align: left;
+padding-bottom: 10px;
+/* margin-left: -85px; */
+}
+
 nav img {
     height: 40%;
     margin-left: 25px;
@@ -103,20 +115,18 @@ nav img {
 }
 
 h2 {
-    display: block;
-    font-size: 140%;
-    margin-right: auto;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-
+font-size: 140%;
+text-align: center;
+text-decoration: none;
+padding-top: 20px;
 }
 
 p {
-    text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
 }
+
 
 table {
    font-size: 90%;
@@ -147,17 +157,14 @@ span {
 }
 
 .fadebuttonblue {
-    background-color: #336699;
-    border-color: #336699;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    text-align: center;
-    width: 200px;
-    display: block;
-    cursor: pointer;
-    color: #ffffff;
+background-color: #336699;
+ border-radius: 5px;
+margin: 0 auto;
+padding: 10px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+color: #ffffff;
 }
 
 h2 .fadebuttonblue {
@@ -170,20 +177,6 @@ h2 .fadebuttonblue {
     text-align: center;
     width: 200px;
     display: block;
-}
-
-h2 .fadebuttonwhite {
-    background-color: #336699;
-    border-color: #336699;
-    color: #ffffff;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    text-align: center;
-    width: 200px;
-    display: block;
-    cursor: pointer;
 }
 
 .scrollicon {
@@ -220,9 +213,8 @@ h2 .fadebuttonwhite {
 }
 
 .whiteback {
-    background-color: #ffffff;
-    margin-left: -13%;
-    height: 1000px;
+background-color: #ffffff;
+height: 1600px;
 }
 
 .news p {
@@ -253,10 +245,12 @@ h2 .fadebuttonwhite {
 }
 
 .indoc > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40px;
+display: block;
+/* margin-left: auto; */
+/* margin-right: auto; */
+width: 60px;
+margin: 0 auto;
+padding-top: 20px;
 }
 
 .underline {
@@ -291,9 +285,9 @@ h2 .fadebuttonwhite {
 
 .navbar {
 width: 100%;
-margin-left: 0%;
-top: 0%;
-height: 30px;
+/* margin-left: 0%; */
+/* top: 0%; */
+height: 60px;
 float: left;
 position: fixed;
 z-index: 1;
@@ -339,11 +333,18 @@ background-color: #34495E;
 }
 
 /* white background */
-#aktuelles, #alpin, #termin {
+#aktuelles, #termin {
 background-color: #ffffff;
 color: #075687;
 width: 100%;
 height: 100%;
+}
+
+#alpin {
+background-color: #ffffff;
+color: #075687;
+width: 100%;
+height: 900px;
 }
 
 #f {
@@ -351,25 +352,11 @@ height: 100%;
     display: block;
 }
 
-#f1 {
-    color: #075687;
-    font-size: 25px;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 100%;
+#f1, #f2 {
+color: #075687;
+font-size: 20px;
 }
 
-#f2 {
-    color: #075687;
-    font-size: 25px;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 100%;
-}
 
 #h {
     cursor: pointer;
@@ -395,16 +382,6 @@ height: 100%;
     text-align: center;
     width: 100%;
 }
-
-
-/*#h1 {
-    color: #075687;
-    font-size: 25px;
-    margin-bottom: -20%;
-    margin-left: 25%;
-    margin-right: auto;
-    text-align: left;
-}*/
 
 #g, #i {
     display: none;
@@ -583,7 +560,7 @@ cursor: pointer;
     background-color: #075687;
     color: #FFFFFF;
     width: 100%;
-    height: 1000px;
+    height: 536px;
 }
 
 /* white background */
@@ -591,7 +568,7 @@ cursor: pointer;
     background-color: #ffffff;
     color: #075687;
     width: 100%;
-    height: 1000px;
+    height: 536px;
 }
 
 /* white background für alpin und termine  (slideshow & iFrame) */
@@ -599,7 +576,7 @@ cursor: pointer;
     background-color: #ffffff;
     color: #075687;
     width: 100%;
-    height: 1800px;
+    height: 536px;
 }
 
 p {
@@ -959,8 +936,7 @@ h2 .fadebuttonblue {
 background-color: #336699;
 border-color: #336699;
 border-radius: 5px;
-margin-left: auto;
-margin-right: auto;
+margin: 0 auto;
 padding: 10px;
 text-align: center;
 width: 500px;
