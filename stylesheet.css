@@ -9,7 +9,7 @@
 position: fixed;
 width: 140px;
 margin-left: 0px;
-bottom: 49px;
+bottom: 45px;
 cursor: pointer;
 z-index: 1;
 }
@@ -76,7 +76,6 @@ padding-top: 10px;
 text-align: center;
 padding-bottom: 20px;
 }
-
 
 nav {
 background-color: #34495E;
@@ -168,15 +167,15 @@ color: #ffffff;
 }
 
 h2 .fadebuttonblue {
-    background-color: #336699;
-    border-color: #336699;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    text-align: center;
-    width: 200px;
-    display: block;
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin: 5px auto;
+/* margin-right: auto; */
+padding: 10px;
+text-align: center;
+width: 200px;
+display: block;
 }
 
 .scrollicon {
@@ -197,8 +196,6 @@ h2 .fadebuttonblue {
 .bluewords {
     color: #075687;
 }
-
-
 
 .bluewords_small {
    color: #075687;
@@ -280,6 +277,8 @@ display: inline-table;
 position: fixed;
 bottom: 0px;
 z-index: 1;
+text-align: center;
+padding-top: 10px;
 }
 
 .foot li {
@@ -289,6 +288,8 @@ list-style-type: none;
 padding-top: 0px;
 text-align: left;
 padding-bottom: 0px;
+padding-top: 10px;
+
 }
 
 .backtomain {
@@ -376,24 +377,9 @@ font-size: 20px;
     display: block;
 }
 
-#h1 {
-    color: #075687;
-    font-size: 25px;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 100%;
-}
-
-#h2 {
-    color: #075687;
-    font-size: 25px;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 100%;
+#h1, #h2 {
+color: #ffffff;
+font-size: 20px;
 }
 
 #g, #i {
@@ -521,14 +507,6 @@ cursor: pointer;
     display: inline;
 }
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -895,6 +873,16 @@ nav ul {
     padding-top: 0;
     text-align: center;
     width: 100%;
+}
+
+#navbarslider {
+width: 100%;
+top: 0%;
+height: 50px;
+position: fixed;
+z-index: 51;
+background-color: #34495E;
+cursor: pointer;
 }
 
 #show {
