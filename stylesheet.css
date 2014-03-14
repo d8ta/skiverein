@@ -157,13 +157,14 @@ span {
 
 .fadebuttonblue {
 background-color: #336699;
- border-radius: 5px;
+border-radius: 5px;
 margin: 0 auto;
 padding: 10px;
 text-align: center;
 width: 200px;
 cursor: pointer;
 color: #ffffff;
+margin-bottom: 50px;
 }
 
 h2 .fadebuttonblue {
@@ -515,6 +516,11 @@ cursor: pointer;
 
 /*Für Tablets*/
 @media only screen and (min-width: 768px) {
+.whiteback {
+background-color: #ffffff;
+height: 2400px;
+}
+
 .indoc > img {
     display: block;
     margin-left: auto;
@@ -577,11 +583,6 @@ height: 1800px;
 }
 
 p {
-/* margin-left: auto; */
-/* margin-right: auto; */
-/* padding-left: 10px; */
-/* padding-right: 10px; */
-/* text-align: justify; */
 width: 100%;
 }
 
@@ -620,16 +621,6 @@ h3 {
     width: 50%;
 }
 
-/*nav li {
-    display: inline;
-    font-size: 150%;
-    list-style-type: none;
-    padding-bottom: 15px;
-    padding-left: 0;
-    padding-top: 13px;
-    text-align: center;
-}*/
-
 li {
     display: block;
     font-size: 150%;
@@ -655,7 +646,6 @@ text-align: center;
 padding-top: 10px;
 }
 
-
 nav {
 background-color: #34495E;
 height: 289px;
@@ -664,24 +654,6 @@ top: 0;
 width: 100%;
 z-index: 50;
 }
-/*
-
-nav ul {
-    display: block;
-    font-size: 127%;
-    padding-left: 0;
-    padding-top: 0;
-    text-align: center;
-    width: 100%;
-}
-
-nav img {
-    height: 40%;
-    margin-left: 25px;
-    margin-top: 22px;
-    position: absolute;
-    text-align: left;
-}*/
 
 a:link {
     color: #FFFFFF;
@@ -690,18 +662,6 @@ a:link {
     text-align: center;
     text-decoration: none;
 }
-
-/*#hide {
-    background-color: #34495E;
-    cursor: pointer;
-    display: block;
-    height: 25px;
-    margin-left: 50%;
-    margin-right: auto;
-    position: fixed;
-    top: 82px;
-    width: 30px;
-}*/
 
 #show {
 width: 45px;
@@ -753,7 +713,6 @@ display: block;
     display: block;
     border-radius: 5px;
 }
-
 
 /*rechtszentriert*/
 #skishow2 {
@@ -811,6 +770,10 @@ display: block;
 table img {
 width: 100px;
 margin-top: 5px;
+}
+
+tr {
+    margin: 0 auto;
 }
 
 td {
