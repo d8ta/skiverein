@@ -294,8 +294,8 @@ padding-top: 10px;
 }
 
 .backtomain {
-    margin-left: -500px;
-    margin-top: -5px;
+margin-left: -500px;
+margin-top: -5px;
 }
 
 .navbar {
@@ -352,14 +352,14 @@ background-color: #34495E;
 background-color: #ffffff;
 color: #075687;
 width: 100%;
-height: 100%;
+height: 120%;
 }
 
 #alpin {
 background-color: #ffffff;
 color: #075687;
 width: 100%;
-height: 900px;
+height: 1200px;
 }
 
 #f {
@@ -571,7 +571,7 @@ display: block;
     background-color: #ffffff;
     color: #075687;
     width: 100%;
-    height: 946px;
+    height: 2000px;
 }
 
 /* white background für alpin und termine  (slideshow & iFrame) */
@@ -1024,7 +1024,7 @@ width: 75%;
 background-color: #ffffff;
 color: #075687;
 width: 100%;
-height: 2300px;
+height: 1200px;
 }
 
 /*nav ul {
