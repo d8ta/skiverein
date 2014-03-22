@@ -11,7 +11,7 @@ if( $ext != '.jpg' &&  $ext != '.gif' &&  $ext != '.png' &&  $ext != '.docx' ) {
 $uploadfile = $uploaddir . $filename;
 
 if (move_uploaded_file($_FILES['bild']['tmp_name'], $uploadfile)) {
-  echo "Datei erfolgreich hochgeladen nach <a href='bilder/'>bilder/</a>\n";
+  echo "Datei erfolgreich hochgeladen nach <a href='pix/'>bilder/</a>\n";
 } else {
   echo "Problem beim Speichern der Datei.\n";
 }
