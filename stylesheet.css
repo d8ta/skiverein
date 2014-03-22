@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #aktuelles table {
     font-size: 80%;
 }
@@ -161,12 +162,234 @@ li a:link {
 #skishow1 img {
     width: 100%;
     height: 100%;
+=======
+/*Für Mobilansicht*/
+@media only screen and (min-width: 320px) {
+
+* {
+    box-sizing: border-box;
+}
+
+#teaser {
+position: fixed;
+width: 140px;
+margin-left: 0px;
+bottom: 45px;
+cursor: pointer;
+z-index: 1;
+}
+
+body {
+    background-color: #075687;
+    color: #FFFFFF;
+    font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: 536px;
+}
+
+ul {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    display: block;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: unterline;
+}
+
+iframe {
+    height: 35%;
+    width: 55%;
+    margin-left: 0%;
+    margin-right: auto;
+}
+
+h1 {
+padding-top: 80px;
+font-size: 275%;
+text-align: center;
+position: relative;
+}
+
+h3 {
+text-align: center;
+}
+
+li {
+/* display: block; */
+font-size: 150%;
+list-style-type: none;
+padding-top: 10px;
+text-align: center;
+padding-bottom: 20px;
+}
+
+nav {
+background-color: #34495E;
+height: 289px;
+left: 0;
+/* padding: 0 0 45px; */
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 50;
+}
+
+nav ul {
+display: block;
+width: 80%;
+margin-top: 60px;
+margin-left: -15px;
+}
+
+nav li {
+/* display: block; */
+font-size: 150%;
+list-style-type: none;
+padding-top: 0px;
+text-align: left;
+padding-bottom: 10px;
+/* margin-left: -85px; */
+}
+
+nav img {
+    height: 40%;
+    margin-left: 25px;
+    margin-top: 22px;
+    position: absolute;
+    text-align: left;
+}
+
+h2 {
+font-size: 140%;
+text-align: center;
+text-decoration: none;
+padding-top: 0px;
+}
+
+p {
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+table {
+   font-size: 90%;
+   margin: auto;
+   display: none;
+}
+
+span {
+    color: #34495E;
+}
+
+.grow {
+  /*display: inline-block;*/
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.fadebuttonblue {
+background-color: #336699;
+border-radius: 5px;
+margin: 0 auto;
+padding: 10px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+color: #ffffff;
+margin-bottom: 50px;
+}
+
+h2 .fadebuttonblue {
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin: 5px auto;
+/* margin-right: auto; */
+padding: 10px;
+text-align: center;
+width: 200px;
+display: block;
+}
+
+.scrollicon {
+    width: 40px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: block;
+}
+
+.pics > img {
+    width: 50%;
+}
+
+.bluewords {
+    color: #075687;
+}
+
+.bluewords_small {
+   color: #075687;
+}
+
+.whitewords {
+    color: #ffffff;
+}
+
+.showall {
+    display: inline;
+}
+
+.whiteback {
+background-color: #ffffff;
+height: 1600px;
+>>>>>>> mmtproject
 }
 
 .news p {
     text-align: left;
+<<<<<<< HEAD
     font-size: 140%;
     margin-top: 40px;
+=======
+    font-size: 105%;
+    margin-top: 50px;
+>>>>>>> mmtproject
 }
 
 .news a:link {
@@ -177,6 +400,7 @@ li a:link {
     margin-right: auto;
 }
 
+<<<<<<< HEAD
 body {
 	background-color: #075687;
 	color: #FFFFFF;
@@ -296,26 +520,237 @@ th {
 
 /* medium size */
 @media only screen and (min-width: 640px) {
+=======
+/* Logo des SC Schellenberg */
+/*.scs {
+    margin-left: 40%;
+    margin-bottom: 4%;
+    width: 20%;
+}*/
+
+.zeichen {
+    width: 30%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+.indoc > img {
+display: block;
+/* margin-left: auto; */
+/* margin-right: auto; */
+width: 60px;
+margin: 0 auto;
+padding-top: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #075687;
+}
+
+.border {
+    border-bottom: solid #075687;
+    padding-left: -20%;
+}
+
+.borderwhite {
+    border-bottom: medium solid #FFFFFF;
+    margin-left: -15%;
+    padding-left: 30%;
+}
+
+.foot {
+font-size: 50%;
+width: 100%;
+margin: 0 auto;
+color: #ffffff;
+background-color: #34495E;
+height: 50px;
+display: inline-table;
+position: fixed;
+bottom: 0px;
+z-index: 1;
+text-align: center;
+padding-top: 10px;
+}
+
+.foot li {
+/* display: block; */
+font-size: 150%;
+list-style-type: none;
+padding-top: 0px;
+text-align: left;
+padding-bottom: 0px;
+padding-top: 10px;
+
+}
+
+.backtomain {
+margin-left: -500px;
+margin-top: -5px;
+}
+
+.navbar {
+width: 100%;
+/* margin-left: 0%; */
+/* top: 0%; */
+height: 60px;
+float: left;
+position: fixed;
+z-index: 1;
+background-color: #34495E;
+}
+
+/* Bubble Top */
+.bubble-top {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.bubble-top:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  left: -webkit-calc(50% - 10px);
+  left: calc(50% - 10px);
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #e1e1e1 transparent;
+  -webkit-transition-property: top;
+  transition-property: top;
+}
+
+.bubble-top:hover:before {
+  top: -10px;
+}
+
+/*blue background-color*/
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 800px;
+}
+
+/* white background */
+#aktuelles, #termin {
+background-color: #ffffff;
+color: #075687;
+width: 100%;
+height: 120%;
+}
+
+#alpin {
+background-color: #ffffff;
+color: #075687;
+width: 100%;
+height: 1200px;
+}
+
+#f {
+    cursor: pointer;
+    display: block;
+}
+
+#f1, #f2 {
+color: #075687;
+font-size: 20px;
+}
+
+
+#h {
+    cursor: pointer;
+    display: block;
+}
+
+#h1, #h2 {
+color: #ffffff;
+font-size: 20px;
+}
+
+#g, #i {
+    display: none;
+}
+
+#show {
+width: 45px;
+cursor: pointer;
+position: fixed;
+z-index: 49;
+height: 26px;
+background-color: #34495E;
+top: 15px;
+margin-left: 10px;
+}
+
+#hide {
+width: 45px;
+cursor: pointer;
+position: fixed;
+z-index: 49;
+height: 26px;
+background-color: #34495E;
+top: -7px;
+margin-left: 10px;
+}
+
+#navbarslider {
+width: 100%;
+top: 0%;
+height: 50px;
+position: fixed;
+z-index: 51;
+background-color: #34495E;
+cursor: pointer;
+}
+
+
+/* Slideshow für Bilder */
+>>>>>>> mmtproject
 #skishow1 {
     margin-top: 80px;
     margin-left: 15%;
     position: relative;
+<<<<<<< HEAD
     width: 390px;
     height: 260px;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 #skishow1 > div {
+=======
+    width: 370px;
+    height: 260px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    display: none;
+
+}
+
+#skishow1 div {
+>>>>>>> mmtproject
     position: absolute;
     top: 10px;
     left: 10px;
     right: 10px;
     bottom: 10px;
+<<<<<<< HEAD
+=======
+    display: none;
+>>>>>>> mmtproject
 }
 
 #skishow1 img {
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
 }
 
 .news p {
@@ -527,5 +962,642 @@ td {
 .foot {
     font-size: 60%;
     width: 100%;
+=======
+    display: none;
+}
+
+/* Slideshow für Bilder */
+#skishow3, #skishow1 {
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    width: 370px;
+    height: 260px;
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.4);
+    display: none;
+}
+
+#skishow3 div, #skishow1 div {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+}
+
+#skishow3 img, #skishow1 img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-radius: 5px;
+}
+
+/*rechtszentriert*/
+#skishow2 {
+    margin-top: 80px;
+    margin-left: 45%;
+    position: relative;
+    width: 370px;
+    height: 260px;
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.4);
+    display: none;
+}
+
+#skishow2 div {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+}
+
+#skishow2 img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-radius: 5px;
+}
+
+.skishowmobil {
+    display: inline;
+}
+}
+
+
+
+
+
+
+/*Für Tablets*/
+@media only screen and (min-width: 768px) {
+.whiteback {
+background-color: #ffffff;
+height: 2400px;
+}
+
+.indoc > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+}
+
+.fadebuttonwhite {
+    background-color: #336699;
+    color: #ffffff;
+    border-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 150px;
+    display: block;
+}
+
+h2 .fadebuttonblue {
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin: 5px auto;
+/* margin-right: auto; */
+padding: 10px;
+text-align: center;
+width: 330px;
+display: block;
+}
+
+.intext_blue {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*blue background-color*/
+#start #intro, #board, #foerderverein {
+    background-color: #075687;
+    color: #FFFFFF;
+    width: 100%;
+    height: 946px;
+}
+
+/* white background */
+#aktuelles {
+    background-color: #ffffff;
+    color: #075687;
+    width: 100%;
+    height: 2000px;
+}
+
+/* white background für alpin und termine  (slideshow & iFrame) */
+#alpin, #termin {
+background-color: #ffffff;
+color: #075687;
+width: 100%;
+height: 1800px;
+}
+
+p {
+width: 100%;
+}
+
+h1 {
+font-size: 450%;
+padding-top: 20%;
+position: relative;
+text-align: center;
+}
+
+h2 {
+display: block;
+font-size: 210%;
+margin-right: auto;
+text-align: center;
+text-decoration: none;
+width: 100%;
+}
+
+
+.text {
+    display: block;
+    font-size: 140%;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+
+h3 {
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    text-align: left;
+    width: 50%;
+}
+
+li {
+    display: block;
+    font-size: 150%;
+    list-style-type: none;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.foot {
+font-size: 80%;
+width: 100%;
+margin: 0 auto;
+color: #ffffff;
+background-color: #34495E;
+height: 50px;
+display: inline-table;
+position: fixed;
+bottom: 0px;
+z-index: 1;
+text-align: center;
+padding-top: 10px;
+}
+
+nav {
+background-color: #34495E;
+height: 289px;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 50;
+}
+
+a:link {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#show {
+width: 45px;
+cursor: pointer;
+position: fixed;
+z-index: 49;
+height: 26px;
+background-color: #34495E;
+top: 15px;
+margin-left: 0px;
+}
+
+.skishow_rechts {
+    text-align: left;
+    margin-left: 360px;
+    width: 75%;
+}
+
+.skishow_links {
+    text-align: left;
+    margin-left: -250px;
+    width: 75%;
+}
+
+/* Slideshow für Bilder */
+#skishow3, #skishow1 {
+margin-top: 80px;
+margin-left: 10%;
+position: relative;
+width: 370px;
+height: 260px;
+padding: 10px;
+box-shadow: 0 0 0px rgba(0,0,0,0.4);
+display: block;
+}
+
+#skishow3 div, #skishow1 div {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+}
+
+#skishow3 img, #skishow1 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+/*rechtszentriert*/
+#skishow2 {
+    margin-top: 80px;
+    margin-left: 45%;
+    position: relative;
+    width: 370px;
+    height: 260px;
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.4);
+    display: block;
+}
+
+#skishow2 div {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+}
+
+#skishow2 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.skishowmobil {
+    display: none;
+}
+
+.zeichen {
+    width: 80px;
+}
+
+iframe {
+    height: 400px;
+    width: 650px;
+    margin-left: 5%;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+table {
+font-size: 165%;
+/* margin-left: 15%; */
+/* margin-right: auto; */
+width: 85%;
+display: block;
+}
+
+table img {
+width: 100px;
+margin-top: 5px;
+}
+
+tr {
+    margin: 0 auto;
+}
+
+td {
+padding: 15px 40px 15px 25px;
+}
+
+td p {
+    text-align: center;
+}
+
+#g, #i {
+    display: block;
+    width: 330px;
+    margin-top: 10px;
+}
+
+/*#f1 {
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: -20%;
+    margin-left: 50%;
+    margin-right: auto;
+    text-align: left;
+}
+
+#f2 {
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: -20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}*/
+
+#h1 {
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#h2 {
+    color: #075687;
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#f {
+cursor: pointer;
+display: block;
+width: 330px;
+}
+
+#teaser {
+position: fixed;
+width: 140px;
+margin-left: 0px;
+bottom: 45px;
+cursor: pointer;
+z-index: 1;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+#show {
+width: 45px;
+cursor: pointer;
+position: fixed;
+z-index: 49;
+height: 26px;
+background-color: #34495E;
+top: 15px;
+margin-left: 0px;
+}
+
+nav {
+background-color: #34495E;
+height: 289px;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 50;
+}
+
+h2 .fadebuttonblue {
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+text-align: center;
+width: 380px;
+display: block;
+}
+
+#g, #i {
+    display: block;
+    width: 380px;
+    margin-top: 10px;
+}
+
+#navbarslider {
+width: 100%;
+top: 0%;
+height: 50px;
+position: fixed;
+z-index: 51;
+background-color: #34495E;
+cursor: pointer;
+}
+
+#show {
+width: 45px;
+cursor: pointer;
+position: fixed;
+z-index: 49;
+height: 26px;
+background-color: #34495E;
+top: 15px;
+margin-left: 10px;
+}
+
+
+table {
+font-size: 165%;
+margin-left: auto;
+margin-right: auto;
+width: 35%;
+display: block;
+}
+
+h1 {
+font-size: 800%;
+padding-top: 20%;
+position: relative;
+text-align: center;
+}
+
+h2 {
+display: block;
+font-size: 340%;
+margin-right: auto;
+text-align: center;
+text-decoration: none;
+width: 100%;
+}
+
+h2 .fadebuttonblue {
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin: 0 auto;
+padding: 10px;
+text-align: center;
+width: 310px;
+display: block;
+}
+
+#f1 {
+color: #075687;
+font-size: 200%;
+margin-bottom: 0%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+width: 100%;
+}
+
+#f2 {
+color: #075687;
+font-size: 200%;
+margin-bottom: 0%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+width: 100%;
+}
+
+.text {
+display: block;
+font-size: 175%;
+margin-right: auto;
+margin-top: 50px;
+text-align: center;
+text-decoration: underline;
+width: 100%;
+}
+
+p {
+margin: 0 auto;
+padding-left: 10px;
+padding-right: 10px;
+width: 50%;
+font-size: 120%;
+}
+
+#skishow3, #skishow1 {
+margin-top: 80px;
+margin-left: 20%;
+position: relative;
+width: 370px;
+height: 260px;
+padding: 10px;
+box-shadow: 0 0 0px rgba(0,0,0,0.4);
+display: block;
+}
+
+#skishow2 {
+margin-top: 80px;
+margin-left: 50%;
+position: relative;
+width: 370px;
+height: 260px;
+padding: 10px;
+box-shadow: 0 0 0px rgba(0,0,0,0.4);
+display: block;
+}
+
+.skishow_rechts {
+text-align: left;
+margin-left: 490px;
+}
+
+.skishow_links {
+text-align: left;
+margin-left: -350px;
+width: 75%;
+}
+
+#alpin, #termin {
+background-color: #ffffff;
+color: #075687;
+width: 100%;
+height: 1200px;
+}
+
+/*nav ul {
+display: inline;
+font-size: 160%;
+padding-left: 0;
+padding-top: 0;
+text-align: center;
+width: 100%;
+margin-left: 10%;
+margin-right: auto;
+}*/
+
+h2 .fadebuttonblue {
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+text-align: center;
+width: 360px;
+display: block;
+}
+
+.fadebuttonblue {
+background-color: #336699;
+border-color: #336699;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+text-align: center;
+width: 360px;
+display: block;
+cursor: pointer;
+color: #ffffff;
+}
+
+iframe {
+height: 400px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+border-radius: 5px;
+}
+
+#teaser {
+position: fixed;
+width: 140px;
+margin-left: 0px;
+bottom: 45px;
+cursor: pointer;
+z-index: 1;
+>>>>>>> mmtproject
 }
 }
